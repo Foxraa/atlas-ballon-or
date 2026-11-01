@@ -1,0 +1,4 @@
+# Réglages locaux de Claude Code
+.claude/
+# Brouillons des posts, à garder privés jusqu'à publication
+__pycache__/

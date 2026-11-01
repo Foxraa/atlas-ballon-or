@@ -1,0 +1,1001 @@
+pays,journaliste,media,rang,joueur,points
+Afrique du Sud,Mark Gleeson,Reuters,1,Kane,15
+Afrique du Sud,Mark Gleeson,Reuters,2,Rodri,12
+Afrique du Sud,Mark Gleeson,Reuters,3,Olise,10
+Afrique du Sud,Mark Gleeson,Reuters,4,Mbappé,8
+Afrique du Sud,Mark Gleeson,Reuters,5,Haaland,7
+Afrique du Sud,Mark Gleeson,Reuters,6,Lamine Yamal,5
+Afrique du Sud,Mark Gleeson,Reuters,7,Hakimi,4
+Afrique du Sud,Mark Gleeson,Reuters,8,Kvaratskhelia,3
+Afrique du Sud,Mark Gleeson,Reuters,9,Dembélé,2
+Afrique du Sud,Mark Gleeson,Reuters,10,Rice,1
+Albanie,Besnik Dizdari,Futbolli Shqiptar,1,Lamine Yamal,15
+Albanie,Besnik Dizdari,Futbolli Shqiptar,2,Rodri,12
+Albanie,Besnik Dizdari,Futbolli Shqiptar,3,Dembélé,10
+Albanie,Besnik Dizdari,Futbolli Shqiptar,4,Mbappé,8
+Albanie,Besnik Dizdari,Futbolli Shqiptar,5,Haaland,7
+Albanie,Besnik Dizdari,Futbolli Shqiptar,6,Messi,5
+Albanie,Besnik Dizdari,Futbolli Shqiptar,7,Kane,4
+Albanie,Besnik Dizdari,Futbolli Shqiptar,8,Hakimi,3
+Albanie,Besnik Dizdari,Futbolli Shqiptar,9,Kvaratskhelia,2
+Albanie,Besnik Dizdari,Futbolli Shqiptar,10,F. Ruiz,1
+Algérie,Yazid Ouahib,El Watan,1,Lamine Yamal,15
+Algérie,Yazid Ouahib,El Watan,2,Rodri,12
+Algérie,Yazid Ouahib,El Watan,3,Dembélé,10
+Algérie,Yazid Ouahib,El Watan,4,F. Torres,8
+Algérie,Yazid Ouahib,El Watan,5,F. Ruiz,7
+Algérie,Yazid Ouahib,El Watan,6,Cubarsi,5
+Algérie,Yazid Ouahib,El Watan,7,Mbappé,4
+Algérie,Yazid Ouahib,El Watan,8,Kane,3
+Algérie,Yazid Ouahib,El Watan,9,Hakimi,2
+Algérie,Yazid Ouahib,El Watan,10,Messi,1
+Allemagne,Karl-Heinz Wild,Kicker,1,Mbappé,15
+Allemagne,Karl-Heinz Wild,Kicker,2,Rodri,12
+Allemagne,Karl-Heinz Wild,Kicker,3,Kane,10
+Allemagne,Karl-Heinz Wild,Kicker,4,Kvaratskhelia,8
+Allemagne,Karl-Heinz Wild,Kicker,5,Lamine Yamal,7
+Allemagne,Karl-Heinz Wild,Kicker,6,Haaland,5
+Allemagne,Karl-Heinz Wild,Kicker,7,Messi,4
+Allemagne,Karl-Heinz Wild,Kicker,8,Olise,3
+Allemagne,Karl-Heinz Wild,Kicker,9,Rice,2
+Allemagne,Karl-Heinz Wild,Kicker,10,F. Ruiz,1
+Angleterre,Henry Winter,World Soccer,1,Kane,15
+Angleterre,Henry Winter,World Soccer,2,Rodri,12
+Angleterre,Henry Winter,World Soccer,3,Lamine Yamal,10
+Angleterre,Henry Winter,World Soccer,4,Kvaratskhelia,8
+Angleterre,Henry Winter,World Soccer,5,Mbappé,7
+Angleterre,Henry Winter,World Soccer,6,Cubarsi,5
+Angleterre,Henry Winter,World Soccer,7,Olise,4
+Angleterre,Henry Winter,World Soccer,8,Bellingham,3
+Angleterre,Henry Winter,World Soccer,9,Messi,2
+Angleterre,Henry Winter,World Soccer,10,Rice,1
+Angola,Mateus Goncalves,Radio Lac,1,Kane,15
+Angola,Mateus Goncalves,Radio Lac,2,Mbappé,12
+Angola,Mateus Goncalves,Radio Lac,3,Lamine Yamal,10
+Angola,Mateus Goncalves,Radio Lac,4,Dembélé,8
+Angola,Mateus Goncalves,Radio Lac,5,Olise,7
+Angola,Mateus Goncalves,Radio Lac,6,F. Ruiz,5
+Angola,Mateus Goncalves,Radio Lac,7,Haaland,4
+Angola,Mateus Goncalves,Radio Lac,8,Messi,3
+Angola,Mateus Goncalves,Radio Lac,9,Kvaratskhelia,2
+Angola,Mateus Goncalves,Radio Lac,10,N. Mendes,1
+Arabie saoudite,Khaled al-Arafah,Thmanyah,1,Kane,15
+Arabie saoudite,Khaled al-Arafah,Thmanyah,2,Mbappé,12
+Arabie saoudite,Khaled al-Arafah,Thmanyah,3,Haaland,10
+Arabie saoudite,Khaled al-Arafah,Thmanyah,4,Lamine Yamal,8
+Arabie saoudite,Khaled al-Arafah,Thmanyah,5,Kvaratskhelia,7
+Arabie saoudite,Khaled al-Arafah,Thmanyah,6,Messi,5
+Arabie saoudite,Khaled al-Arafah,Thmanyah,7,Rodri,4
+Arabie saoudite,Khaled al-Arafah,Thmanyah,8,Olise,3
+Arabie saoudite,Khaled al-Arafah,Thmanyah,9,Dembélé,2
+Arabie saoudite,Khaled al-Arafah,Thmanyah,10,F. Ruiz,1
+Argentine,Ezequiel Fernandez Moores,La Nacion,1,Messi,15
+Argentine,Ezequiel Fernandez Moores,La Nacion,2,Kane,12
+Argentine,Ezequiel Fernandez Moores,La Nacion,3,Mbappé,10
+Argentine,Ezequiel Fernandez Moores,La Nacion,4,Rodri,8
+Argentine,Ezequiel Fernandez Moores,La Nacion,5,Lamine Yamal,7
+Argentine,Ezequiel Fernandez Moores,La Nacion,6,Kvaratskhelia,5
+Argentine,Ezequiel Fernandez Moores,La Nacion,7,Olise,4
+Argentine,Ezequiel Fernandez Moores,La Nacion,8,Dembélé,3
+Argentine,Ezequiel Fernandez Moores,La Nacion,9,Vitinha,2
+Argentine,Ezequiel Fernandez Moores,La Nacion,10,Haaland,1
+Australie,Daniel Garb,Network Ten,1,Kane,15
+Australie,Daniel Garb,Network Ten,2,Mbappé,12
+Australie,Daniel Garb,Network Ten,3,Messi,10
+Australie,Daniel Garb,Network Ten,4,Rodri,8
+Australie,Daniel Garb,Network Ten,5,Olise,7
+Australie,Daniel Garb,Network Ten,6,Lamine Yamal,5
+Australie,Daniel Garb,Network Ten,7,Kvaratskhelia,4
+Australie,Daniel Garb,Network Ten,8,Haaland,3
+Australie,Daniel Garb,Network Ten,9,Cubarsi,2
+Australie,Daniel Garb,Network Ten,10,Bellingham,1
+Autriche,Martin Konrad,Sky Sport Austria,1,Kane,15
+Autriche,Martin Konrad,Sky Sport Austria,2,Rodri,12
+Autriche,Martin Konrad,Sky Sport Austria,3,Kvaratskhelia,10
+Autriche,Martin Konrad,Sky Sport Austria,4,Lamine Yamal,8
+Autriche,Martin Konrad,Sky Sport Austria,5,Haaland,7
+Autriche,Martin Konrad,Sky Sport Austria,6,Olise,5
+Autriche,Martin Konrad,Sky Sport Austria,7,Mbappé,4
+Autriche,Martin Konrad,Sky Sport Austria,8,Cucurella,3
+Autriche,Martin Konrad,Sky Sport Austria,9,Bellingham,2
+Autriche,Martin Konrad,Sky Sport Austria,10,Vitinha,1
+Bahreïn,Abdullah Ashoor,AFP,1,Mbappé,15
+Bahreïn,Abdullah Ashoor,AFP,2,Lamine Yamal,12
+Bahreïn,Abdullah Ashoor,AFP,3,Kane,10
+Bahreïn,Abdullah Ashoor,AFP,4,Rodri,8
+Bahreïn,Abdullah Ashoor,AFP,5,Messi,7
+Bahreïn,Abdullah Ashoor,AFP,6,F. Ruiz,5
+Bahreïn,Abdullah Ashoor,AFP,7,Bellingham,4
+Bahreïn,Abdullah Ashoor,AFP,8,Haaland,3
+Bahreïn,Abdullah Ashoor,AFP,9,Hakimi,2
+Bahreïn,Abdullah Ashoor,AFP,10,Olise,1
+Belgique,Frédéric Larsimont,Le Soir,1,Kane,15
+Belgique,Frédéric Larsimont,Le Soir,2,Kvaratskhelia,12
+Belgique,Frédéric Larsimont,Le Soir,3,Mbappé,10
+Belgique,Frédéric Larsimont,Le Soir,4,Olise,8
+Belgique,Frédéric Larsimont,Le Soir,5,Messi,7
+Belgique,Frédéric Larsimont,Le Soir,6,Dembélé,5
+Belgique,Frédéric Larsimont,Le Soir,7,Bellingham,4
+Belgique,Frédéric Larsimont,Le Soir,8,Lamine Yamal,3
+Belgique,Frédéric Larsimont,Le Soir,9,Luis Diaz,2
+Belgique,Frédéric Larsimont,Le Soir,10,Vitinha,1
+Bénin,Abdul Fataï Sanni,La Nation,1,Mbappé,15
+Bénin,Abdul Fataï Sanni,La Nation,2,Lamine Yamal,12
+Bénin,Abdul Fataï Sanni,La Nation,3,Dembélé,10
+Bénin,Abdul Fataï Sanni,La Nation,4,Kane,8
+Bénin,Abdul Fataï Sanni,La Nation,5,Kvaratskhelia,7
+Bénin,Abdul Fataï Sanni,La Nation,6,Olise,5
+Bénin,Abdul Fataï Sanni,La Nation,7,Haaland,4
+Bénin,Abdul Fataï Sanni,La Nation,8,Messi,3
+Bénin,Abdul Fataï Sanni,La Nation,9,Hakimi,2
+Bénin,Abdul Fataï Sanni,La Nation,10,Cubarsi,1
+Biélorussie,Sergueï Nikolaïev,Pressball,1,Messi,15
+Biélorussie,Sergueï Nikolaïev,Pressball,2,Rodri,12
+Biélorussie,Sergueï Nikolaïev,Pressball,3,Kane,10
+Biélorussie,Sergueï Nikolaïev,Pressball,4,Haaland,8
+Biélorussie,Sergueï Nikolaïev,Pressball,5,Mbappé,7
+Biélorussie,Sergueï Nikolaïev,Pressball,6,Kvaratskhelia,5
+Biélorussie,Sergueï Nikolaïev,Pressball,7,Dembélé,4
+Biélorussie,Sergueï Nikolaïev,Pressball,8,Rice,3
+Biélorussie,Sergueï Nikolaïev,Pressball,9,Olise,2
+Biélorussie,Sergueï Nikolaïev,Pressball,10,Bellingham,1
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,1,Kane,15
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,2,Lamine Yamal,12
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,3,Kvaratskhelia,10
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,4,Mbappé,8
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,5,Rodri,7
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,6,Olise,5
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,7,Dembélé,4
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,8,Messi,3
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,9,Haaland,2
+Bolivie,Roberto Acosta Echavarria,late.com.bo et Bolivia TV,10,Hakimi,1
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,1,Kane,15
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,2,Lamine Yamal,12
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,3,Kvaratskhelia,10
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,4,Mbappé,8
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,5,Haaland,7
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,6,Messi,5
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,7,Bellingham,4
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,8,Rodri,3
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,9,Gabriel,2
+Bosnie-Herzégovine,Semir Mustafic,N1 Bosnia,10,F. Ruiz,1
+Brésil,Cleber Machado,Record TV,1,Messi,15
+Brésil,Cleber Machado,Record TV,2,Mbappé,12
+Brésil,Cleber Machado,Record TV,3,Rodri,10
+Brésil,Cleber Machado,Record TV,4,Kane,8
+Brésil,Cleber Machado,Record TV,5,Olise,7
+Brésil,Cleber Machado,Record TV,6,Lamine Yamal,5
+Brésil,Cleber Machado,Record TV,7,Haaland,4
+Brésil,Cleber Machado,Record TV,8,Vinicius Jr.,3
+Brésil,Cleber Machado,Record TV,9,Dembélé,2
+Brésil,Cleber Machado,Record TV,10,Kvaratskhelia,1
+Bulgarie,Rumen Paytachev,blitz.bg,1,Mbappé,15
+Bulgarie,Rumen Paytachev,blitz.bg,2,Rodri,12
+Bulgarie,Rumen Paytachev,blitz.bg,3,Messi,10
+Bulgarie,Rumen Paytachev,blitz.bg,4,Haaland,8
+Bulgarie,Rumen Paytachev,blitz.bg,5,Kvaratskhelia,7
+Bulgarie,Rumen Paytachev,blitz.bg,6,Lamine Yamal,5
+Bulgarie,Rumen Paytachev,blitz.bg,7,L. Martinez,4
+Bulgarie,Rumen Paytachev,blitz.bg,8,Kane,3
+Bulgarie,Rumen Paytachev,blitz.bg,9,Vitinha,2
+Bulgarie,Rumen Paytachev,blitz.bg,10,F. Torres,1
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,1,Lamine Yamal,15
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,2,Dembélé,12
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,3,Mbappé,10
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,4,Kane,8
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,5,Rodri,7
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,6,Olise,5
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,7,Messi,4
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,8,Kvaratskhelia,3
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,9,Cubarsi,2
+Burkina Faso,Lassina Sawadogo,Radiodiffusion Télévision du Burkina,10,Hakimi,1
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,1,Mbappé,15
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,2,F. Ruiz,12
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,3,Rodri,10
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,4,Dembélé,8
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,5,Kvaratskhelia,7
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,6,Olise,5
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,7,Rice,4
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,8,Marquinhos,3
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,9,Hakimi,2
+Cameroun,Emmanuel Gustave Samnick,L'Actu Sport et Notre Afrik,10,Kane,1
+Canada,Neil Davidson,The Globe and Mail,1,Kane,15
+Canada,Neil Davidson,The Globe and Mail,2,Lamine Yamal,12
+Canada,Neil Davidson,The Globe and Mail,3,Mbappé,10
+Canada,Neil Davidson,The Globe and Mail,4,Rodri,8
+Canada,Neil Davidson,The Globe and Mail,5,Messi,7
+Canada,Neil Davidson,The Globe and Mail,6,Kvaratskhelia,5
+Canada,Neil Davidson,The Globe and Mail,7,Haaland,4
+Canada,Neil Davidson,The Globe and Mail,8,Dembélé,3
+Canada,Neil Davidson,The Globe and Mail,9,Olise,2
+Canada,Neil Davidson,The Globe and Mail,10,F. Ruiz,1
+Cap-Vert,Simao Rodrigues,Inforpress,1,Lamine Yamal,15
+Cap-Vert,Simao Rodrigues,Inforpress,2,Kane,12
+Cap-Vert,Simao Rodrigues,Inforpress,3,Haaland,10
+Cap-Vert,Simao Rodrigues,Inforpress,4,Mbappé,8
+Cap-Vert,Simao Rodrigues,Inforpress,5,Vitinha,7
+Cap-Vert,Simao Rodrigues,Inforpress,6,Kvaratskhelia,5
+Cap-Vert,Simao Rodrigues,Inforpress,7,Vinicius Jr.,4
+Cap-Vert,Simao Rodrigues,Inforpress,8,F. Torres,3
+Cap-Vert,Simao Rodrigues,Inforpress,9,Bellingham,2
+Cap-Vert,Simao Rodrigues,Inforpress,10,Rodri,1
+Chili,Danilo Diaz,Radio ADN,1,Kane,15
+Chili,Danilo Diaz,Radio ADN,2,Messi,12
+Chili,Danilo Diaz,Radio ADN,3,Rodri,10
+Chili,Danilo Diaz,Radio ADN,4,Kvaratskhelia,8
+Chili,Danilo Diaz,Radio ADN,5,Mbappé,7
+Chili,Danilo Diaz,Radio ADN,6,Haaland,5
+Chili,Danilo Diaz,Radio ADN,7,Olise,4
+Chili,Danilo Diaz,Radio ADN,8,Lamine Yamal,3
+Chili,Danilo Diaz,Radio ADN,9,Vitinha,2
+Chili,Danilo Diaz,Radio ADN,10,Dembélé,1
+Chine,Luo Ming,Titan Sports,1,Messi,15
+Chine,Luo Ming,Titan Sports,2,Dembélé,12
+Chine,Luo Ming,Titan Sports,3,Rodri,10
+Chine,Luo Ming,Titan Sports,4,Kane,8
+Chine,Luo Ming,Titan Sports,5,Mbappé,7
+Chine,Luo Ming,Titan Sports,6,Lamine Yamal,5
+Chine,Luo Ming,Titan Sports,7,Kvaratskhelia,4
+Chine,Luo Ming,Titan Sports,8,Rice,3
+Chine,Luo Ming,Titan Sports,9,Cubarsi,2
+Chine,Luo Ming,Titan Sports,10,F. Ruiz,1
+Colombie,Paché Andrade,Futbol al minuto,1,Kane,15
+Colombie,Paché Andrade,Futbol al minuto,2,Rodri,12
+Colombie,Paché Andrade,Futbol al minuto,3,Mbappé,10
+Colombie,Paché Andrade,Futbol al minuto,4,Messi,8
+Colombie,Paché Andrade,Futbol al minuto,5,Lamine Yamal,7
+Colombie,Paché Andrade,Futbol al minuto,6,Haaland,5
+Colombie,Paché Andrade,Futbol al minuto,7,Dembélé,4
+Colombie,Paché Andrade,Futbol al minuto,8,Luis Diaz,3
+Colombie,Paché Andrade,Futbol al minuto,9,Pacho,2
+Colombie,Paché Andrade,Futbol al minuto,10,Quinones,1
+Corée du Sud,Kim Yong-il,Sports Seoul,1,Rodri,15
+Corée du Sud,Kim Yong-il,Sports Seoul,2,Mbappé,12
+Corée du Sud,Kim Yong-il,Sports Seoul,3,Messi,10
+Corée du Sud,Kim Yong-il,Sports Seoul,4,Kane,8
+Corée du Sud,Kim Yong-il,Sports Seoul,5,Kvaratskhelia,7
+Corée du Sud,Kim Yong-il,Sports Seoul,6,Haaland,5
+Corée du Sud,Kim Yong-il,Sports Seoul,7,Lamine Yamal,4
+Corée du Sud,Kim Yong-il,Sports Seoul,8,Bellingham,3
+Corée du Sud,Kim Yong-il,Sports Seoul,9,Dembélé,2
+Corée du Sud,Kim Yong-il,Sports Seoul,10,Hakimi,1
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,1,Kane,15
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,2,Mbappé,12
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,3,Rodri,10
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,4,Messi,8
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,5,Haaland,7
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,6,Bellingham,5
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,7,Cubarsi,4
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,8,Dembélé,3
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,9,Olise,2
+Costa Rica,Rodrigo Antonio Calvo Castro,Buzon de Rodrigo,10,Lamine Yamal,1
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,1,Mbappé,15
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,2,Kvaratskhelia,12
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,3,Haaland,10
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,4,Dembélé,8
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,5,Rodri,7
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,6,Bellingham,5
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,7,Hakimi,4
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,8,Lamine Yamal,3
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,9,Olise,2
+Côte d'Ivoire,Adam Khalil,sport-ivoire.ci,10,N. Mendes,1
+Croatie,Zdravko Reic,Jutarnji List,1,Rodri,15
+Croatie,Zdravko Reic,Jutarnji List,2,Haaland,12
+Croatie,Zdravko Reic,Jutarnji List,3,Messi,10
+Croatie,Zdravko Reic,Jutarnji List,4,F. Torres,8
+Croatie,Zdravko Reic,Jutarnji List,5,Mbappé,7
+Croatie,Zdravko Reic,Jutarnji List,6,Kane,5
+Croatie,Zdravko Reic,Jutarnji List,7,Cubarsi,4
+Croatie,Zdravko Reic,Jutarnji List,8,Vitinha,3
+Croatie,Zdravko Reic,Jutarnji List,9,Dembélé,2
+Croatie,Zdravko Reic,Jutarnji List,10,Bellingham,1
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,1,Olise,15
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,2,Kane,12
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,3,Kvaratskhelia,10
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,4,Lamine Yamal,8
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,5,Mbappé,7
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,6,Rodri,5
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,7,Vitinha,4
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,8,N. Mendes,3
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,9,Saliba,2
+Curaçao,Carl Ruiter,Extra Curaçao et Radio Hoyer,10,Luis Diaz,1
+Danemark,Troels Bager Thogersen,Campo,1,Kane,15
+Danemark,Troels Bager Thogersen,Campo,2,Lamine Yamal,12
+Danemark,Troels Bager Thogersen,Campo,3,Kvaratskhelia,10
+Danemark,Troels Bager Thogersen,Campo,4,Rodri,8
+Danemark,Troels Bager Thogersen,Campo,5,Messi,7
+Danemark,Troels Bager Thogersen,Campo,6,Rice,5
+Danemark,Troels Bager Thogersen,Campo,7,Mbappé,4
+Danemark,Troels Bager Thogersen,Campo,8,Vitinha,3
+Danemark,Troels Bager Thogersen,Campo,9,Haaland,2
+Danemark,Troels Bager Thogersen,Campo,10,Gabriel,1
+Écosse,John Greechan,Edinburgh Evening News,1,Kane,15
+Écosse,John Greechan,Edinburgh Evening News,2,Lamine Yamal,12
+Écosse,John Greechan,Edinburgh Evening News,3,Rodri,10
+Écosse,John Greechan,Edinburgh Evening News,4,F. Ruiz,8
+Écosse,John Greechan,Edinburgh Evening News,5,Haaland,7
+Écosse,John Greechan,Edinburgh Evening News,6,Upamecano,5
+Écosse,John Greechan,Edinburgh Evening News,7,Kvaratskhelia,4
+Écosse,John Greechan,Edinburgh Evening News,8,Cucurella,3
+Écosse,John Greechan,Edinburgh Evening News,9,F. Torres,2
+Écosse,John Greechan,Edinburgh Evening News,10,Messi,1
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,1,Mbappé,15
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,2,Kvaratskhelia,12
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,3,Lamine Yamal,10
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,4,Kane,8
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,5,Vitinha,7
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,6,Rice,5
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,7,Bellingham,4
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,8,Rodri,3
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,9,Cubarsi,2
+Égypte,Amr Nageeb Fahmy,beIN SPORTS,10,F. Ruiz,1
+Eire,Paul Kelly,Freelance,1,Kane,15
+Eire,Paul Kelly,Freelance,2,Lamine Yamal,12
+Eire,Paul Kelly,Freelance,3,Kvaratskhelia,10
+Eire,Paul Kelly,Freelance,4,Olise,8
+Eire,Paul Kelly,Freelance,5,Rodri,7
+Eire,Paul Kelly,Freelance,6,Mbappé,5
+Eire,Paul Kelly,Freelance,7,Haaland,4
+Eire,Paul Kelly,Freelance,8,Messi,3
+Eire,Paul Kelly,Freelance,9,Vitinha,2
+Eire,Paul Kelly,Freelance,10,Rice,1
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,1,Messi,15
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,2,Mbappé,12
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,3,Lamine Yamal,10
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,4,Kvaratskhelia,8
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,5,Kane,7
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,6,Dembélé,5
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,7,Rodri,4
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,8,Olise,3
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,9,F. Ruiz,2
+Émirats arabes unis,Osama Mohamad Alamri,Abudhabi Sports TV,10,Hakimi,1
+Équateur,Patricio Cornejo Garcés,Radio Caravana,1,Mbappé,15
+Équateur,Patricio Cornejo Garcés,Radio Caravana,2,Kane,12
+Équateur,Patricio Cornejo Garcés,Radio Caravana,3,Olise,10
+Équateur,Patricio Cornejo Garcés,Radio Caravana,4,Dembélé,8
+Équateur,Patricio Cornejo Garcés,Radio Caravana,5,Lamine Yamal,7
+Équateur,Patricio Cornejo Garcés,Radio Caravana,6,Rice,5
+Équateur,Patricio Cornejo Garcés,Radio Caravana,7,Haaland,4
+Équateur,Patricio Cornejo Garcés,Radio Caravana,8,F. Ruiz,3
+Équateur,Patricio Cornejo Garcés,Radio Caravana,9,L. Martinez,2
+Équateur,Patricio Cornejo Garcés,Radio Caravana,10,Luis Diaz,1
+Espagne,José Félix Diaz,AS,1,Mbappé,15
+Espagne,José Félix Diaz,AS,2,Lamine Yamal,12
+Espagne,José Félix Diaz,AS,3,Kane,10
+Espagne,José Félix Diaz,AS,4,Kvaratskhelia,8
+Espagne,José Félix Diaz,AS,5,Rodri,7
+Espagne,José Félix Diaz,AS,6,F. Ruiz,5
+Espagne,José Félix Diaz,AS,7,Cubarsi,4
+Espagne,José Félix Diaz,AS,8,Messi,3
+Espagne,José Félix Diaz,AS,9,Haaland,2
+Espagne,José Félix Diaz,AS,10,Olise,1
+États-Unis,Paul Kennedy,Soccer America,1,Rodri,15
+États-Unis,Paul Kennedy,Soccer America,2,Messi,12
+États-Unis,Paul Kennedy,Soccer America,3,Mbappé,10
+États-Unis,Paul Kennedy,Soccer America,4,Kane,8
+États-Unis,Paul Kennedy,Soccer America,5,Lamine Yamal,7
+États-Unis,Paul Kennedy,Soccer America,6,Haaland,5
+États-Unis,Paul Kennedy,Soccer America,7,Olise,4
+États-Unis,Paul Kennedy,Soccer America,8,Kvaratskhelia,3
+États-Unis,Paul Kennedy,Soccer America,9,Bellingham,2
+États-Unis,Paul Kennedy,Soccer America,10,Dembélé,1
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,1,Mbappé,15
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,2,Kane,12
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,3,Rodri,10
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,4,Lamine Yamal,8
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,5,Olise,7
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,6,Kvaratskhelia,5
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,7,Vitinha,4
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,8,Haaland,3
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,9,Dembélé,2
+Finlande,Ari Virtanen,Helsingin Sanomat et Ilta-Sanomat,10,Messi,1
+France,Vincent Garcia,France Football,1,Mbappé,15
+France,Vincent Garcia,France Football,2,Dembélé,12
+France,Vincent Garcia,France Football,3,Lamine Yamal,10
+France,Vincent Garcia,France Football,4,Kvaratskhelia,8
+France,Vincent Garcia,France Football,5,Messi,7
+France,Vincent Garcia,France Football,6,Kane,5
+France,Vincent Garcia,France Football,7,Olise,4
+France,Vincent Garcia,France Football,8,Haaland,3
+France,Vincent Garcia,France Football,9,Rodri,2
+France,Vincent Garcia,France Football,10,F. Ruiz,1
+Gabon,James Angelo Loundou,L'Union,1,F. Ruiz,15
+Gabon,James Angelo Loundou,L'Union,2,Messi,12
+Gabon,James Angelo Loundou,L'Union,3,Kane,10
+Gabon,James Angelo Loundou,L'Union,4,Lamine Yamal,8
+Gabon,James Angelo Loundou,L'Union,5,Dembélé,7
+Gabon,James Angelo Loundou,L'Union,6,Rodri,5
+Gabon,James Angelo Loundou,L'Union,7,Mbappé,4
+Gabon,James Angelo Loundou,L'Union,8,Kvaratskhelia,3
+Gabon,James Angelo Loundou,L'Union,9,Mané,2
+Gabon,James Angelo Loundou,L'Union,10,Olise,1
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,1,Lamine Yamal,15
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,2,Kane,12
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,3,Mbappé,10
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,4,Messi,8
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,5,Dembélé,7
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,6,Olise,5
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,7,Rodri,4
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,8,Kvaratskhelia,3
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,9,F. Ruiz,2
+Galles,Paul Abbandonato,Mediawales et Trinitymirror.com,10,Haaland,1
+Géorgie,Vakhtang Bzikadze,Sarbieli,1,Kvaratskhelia,15
+Géorgie,Vakhtang Bzikadze,Sarbieli,2,Dembélé,12
+Géorgie,Vakhtang Bzikadze,Sarbieli,3,Rodri,10
+Géorgie,Vakhtang Bzikadze,Sarbieli,4,Kane,8
+Géorgie,Vakhtang Bzikadze,Sarbieli,5,Mbappé,7
+Géorgie,Vakhtang Bzikadze,Sarbieli,6,Messi,5
+Géorgie,Vakhtang Bzikadze,Sarbieli,7,Lamine Yamal,4
+Géorgie,Vakhtang Bzikadze,Sarbieli,8,F. Ruiz,3
+Géorgie,Vakhtang Bzikadze,Sarbieli,9,Bellingham,2
+Géorgie,Vakhtang Bzikadze,Sarbieli,10,Olise,1
+Ghana,Michael Oti Adjei,TV3 Network,1,Mbappé,15
+Ghana,Michael Oti Adjei,TV3 Network,2,Kane,12
+Ghana,Michael Oti Adjei,TV3 Network,3,Lamine Yamal,10
+Ghana,Michael Oti Adjei,TV3 Network,4,Messi,8
+Ghana,Michael Oti Adjei,TV3 Network,5,Dembélé,7
+Ghana,Michael Oti Adjei,TV3 Network,6,Rice,5
+Ghana,Michael Oti Adjei,TV3 Network,7,Olise,4
+Ghana,Michael Oti Adjei,TV3 Network,8,Joao Neves,3
+Ghana,Michael Oti Adjei,TV3 Network,9,Bruno Fernandes,2
+Ghana,Michael Oti Adjei,TV3 Network,10,Haaland,1
+Grèce,Manos Staramopoulos,Dimokratia,1,Kvaratskhelia,15
+Grèce,Manos Staramopoulos,Dimokratia,2,Rodri,12
+Grèce,Manos Staramopoulos,Dimokratia,3,Pacho,10
+Grèce,Manos Staramopoulos,Dimokratia,4,Cucurella,8
+Grèce,Manos Staramopoulos,Dimokratia,5,Joao Neves,7
+Grèce,Manos Staramopoulos,Dimokratia,6,Olise,5
+Grèce,Manos Staramopoulos,Dimokratia,7,Kane,4
+Grèce,Manos Staramopoulos,Dimokratia,8,Gabriel,3
+Grèce,Manos Staramopoulos,Dimokratia,9,Marquinhos,2
+Grèce,Manos Staramopoulos,Dimokratia,10,Rice,1
+Guatemala,Luis Rolando Solares,TV Azteca Guate,1,Rodri,15
+Guatemala,Luis Rolando Solares,TV Azteca Guate,2,Mbappé,12
+Guatemala,Luis Rolando Solares,TV Azteca Guate,3,Lamine Yamal,10
+Guatemala,Luis Rolando Solares,TV Azteca Guate,4,Messi,8
+Guatemala,Luis Rolando Solares,TV Azteca Guate,5,Kane,7
+Guatemala,Luis Rolando Solares,TV Azteca Guate,6,Dembélé,5
+Guatemala,Luis Rolando Solares,TV Azteca Guate,7,Kvaratskhelia,4
+Guatemala,Luis Rolando Solares,TV Azteca Guate,8,Bellingham,3
+Guatemala,Luis Rolando Solares,TV Azteca Guate,9,Haaland,2
+Guatemala,Luis Rolando Solares,TV Azteca Guate,10,Olise,1
+Guinée,Ibrahima Diallo,Afrikinfomedia,1,Mbappé,15
+Guinée,Ibrahima Diallo,Afrikinfomedia,2,Lamine Yamal,12
+Guinée,Ibrahima Diallo,Afrikinfomedia,3,Dembélé,10
+Guinée,Ibrahima Diallo,Afrikinfomedia,4,Kane,8
+Guinée,Ibrahima Diallo,Afrikinfomedia,5,Bellingham,7
+Guinée,Ibrahima Diallo,Afrikinfomedia,6,Haaland,5
+Guinée,Ibrahima Diallo,Afrikinfomedia,7,Rodri,4
+Guinée,Ibrahima Diallo,Afrikinfomedia,8,Vinicius Jr.,3
+Guinée,Ibrahima Diallo,Afrikinfomedia,9,Vitinha,2
+Guinée,Ibrahima Diallo,Afrikinfomedia,10,Hakimi,1
+Haïti,Jean Pierre Étienne,Radio Ibo,1,Kane,15
+Haïti,Jean Pierre Étienne,Radio Ibo,2,Dembélé,12
+Haïti,Jean Pierre Étienne,Radio Ibo,3,Mbappé,10
+Haïti,Jean Pierre Étienne,Radio Ibo,4,Lamine Yamal,8
+Haïti,Jean Pierre Étienne,Radio Ibo,5,Messi,7
+Haïti,Jean Pierre Étienne,Radio Ibo,6,Rodri,5
+Haïti,Jean Pierre Étienne,Radio Ibo,7,Olise,4
+Haïti,Jean Pierre Étienne,Radio Ibo,8,F. Ruiz,3
+Haïti,Jean Pierre Étienne,Radio Ibo,9,Kvaratskhelia,2
+Haïti,Jean Pierre Étienne,Radio Ibo,10,Bellingham,1
+Honduras,Francisco Antonio Rivas,Emision Deportes,1,Lamine Yamal,15
+Honduras,Francisco Antonio Rivas,Emision Deportes,2,Rodri,12
+Honduras,Francisco Antonio Rivas,Emision Deportes,3,Mbappé,10
+Honduras,Francisco Antonio Rivas,Emision Deportes,4,Messi,8
+Honduras,Francisco Antonio Rivas,Emision Deportes,5,F. Ruiz,7
+Honduras,Francisco Antonio Rivas,Emision Deportes,6,Kane,5
+Honduras,Francisco Antonio Rivas,Emision Deportes,7,Haaland,4
+Honduras,Francisco Antonio Rivas,Emision Deportes,8,Dembélé,3
+Honduras,Francisco Antonio Rivas,Emision Deportes,9,Olise,2
+Honduras,Francisco Antonio Rivas,Emision Deportes,10,Bellingham,1
+Hongrie,György Szöllösi,Freelance,1,Kane,15
+Hongrie,György Szöllösi,Freelance,2,Lamine Yamal,12
+Hongrie,György Szöllösi,Freelance,3,Messi,10
+Hongrie,György Szöllösi,Freelance,4,Haaland,8
+Hongrie,György Szöllösi,Freelance,5,Mbappé,7
+Hongrie,György Szöllösi,Freelance,6,Kvaratskhelia,5
+Hongrie,György Szöllösi,Freelance,7,Rodri,4
+Hongrie,György Szöllösi,Freelance,8,F. Ruiz,3
+Hongrie,György Szöllösi,Freelance,9,Hakimi,2
+Hongrie,György Szöllösi,Freelance,10,Bellingham,1
+Irak,Sami Abdul Emam,Dubai Sports Council,1,Mbappé,15
+Irak,Sami Abdul Emam,Dubai Sports Council,2,Messi,12
+Irak,Sami Abdul Emam,Dubai Sports Council,3,Kane,10
+Irak,Sami Abdul Emam,Dubai Sports Council,4,Lamine Yamal,8
+Irak,Sami Abdul Emam,Dubai Sports Council,5,F. Ruiz,7
+Irak,Sami Abdul Emam,Dubai Sports Council,6,F. Torres,5
+Irak,Sami Abdul Emam,Dubai Sports Council,7,Hakimi,4
+Irak,Sami Abdul Emam,Dubai Sports Council,8,Kvaratskhelia,3
+Irak,Sami Abdul Emam,Dubai Sports Council,9,Dembélé,2
+Irak,Sami Abdul Emam,Dubai Sports Council,10,Rice,1
+Iran,Siamak Rahmani,Freelance,1,Kane,15
+Iran,Siamak Rahmani,Freelance,2,Lamine Yamal,12
+Iran,Siamak Rahmani,Freelance,3,Mbappé,10
+Iran,Siamak Rahmani,Freelance,4,Kvaratskhelia,8
+Iran,Siamak Rahmani,Freelance,5,Rodri,7
+Iran,Siamak Rahmani,Freelance,6,Messi,5
+Iran,Siamak Rahmani,Freelance,7,Dembélé,4
+Iran,Siamak Rahmani,Freelance,8,Bellingham,3
+Iran,Siamak Rahmani,Freelance,9,Haaland,2
+Iran,Siamak Rahmani,Freelance,10,Olise,1
+Irlande du Nord,Steven Beacom,Belfast Telegraph,1,Kane,15
+Irlande du Nord,Steven Beacom,Belfast Telegraph,2,Haaland,12
+Irlande du Nord,Steven Beacom,Belfast Telegraph,3,Mbappé,10
+Irlande du Nord,Steven Beacom,Belfast Telegraph,4,Messi,8
+Irlande du Nord,Steven Beacom,Belfast Telegraph,5,Lamine Yamal,7
+Irlande du Nord,Steven Beacom,Belfast Telegraph,6,Dembélé,5
+Irlande du Nord,Steven Beacom,Belfast Telegraph,7,Rodri,4
+Irlande du Nord,Steven Beacom,Belfast Telegraph,8,Olise,3
+Irlande du Nord,Steven Beacom,Belfast Telegraph,9,Bellingham,2
+Irlande du Nord,Steven Beacom,Belfast Telegraph,10,Kvaratskhelia,1
+Islande,Vidir Sigurdsson,Freelance,1,Rodri,15
+Islande,Vidir Sigurdsson,Freelance,2,Mbappé,12
+Islande,Vidir Sigurdsson,Freelance,3,Messi,10
+Islande,Vidir Sigurdsson,Freelance,4,Kane,8
+Islande,Vidir Sigurdsson,Freelance,5,Lamine Yamal,7
+Islande,Vidir Sigurdsson,Freelance,6,Haaland,5
+Islande,Vidir Sigurdsson,Freelance,7,Cubarsi,4
+Islande,Vidir Sigurdsson,Freelance,8,Kvaratskhelia,3
+Islande,Vidir Sigurdsson,Freelance,9,Olise,2
+Islande,Vidir Sigurdsson,Freelance,10,Dembélé,1
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,1,Kane,15
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,2,Rodri,12
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,3,Lamine Yamal,10
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,4,Mbappé,8
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,5,Kvaratskhelia,7
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,6,Messi,5
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,7,F. Ruiz,4
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,8,Olise,3
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,9,Cubarsi,2
+Israël,Nadav Jacobi,Channel 5 et Israel Hayom,10,Dembélé,1
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,1,Mbappé,15
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,2,Rodri,12
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,3,Kvaratskhelia,10
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,4,Messi,8
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,5,Kane,7
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,6,Haaland,5
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,7,Lamine Yamal,4
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,8,Bellingham,3
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,9,Olise,2
+Italie,Paolo Condo,Corriere della Sera et Sky Sport Italia,10,Dembélé,1
+Jamaïque,Andre Lowe,Jamaica Observer,1,Kane,15
+Jamaïque,Andre Lowe,Jamaica Observer,2,Mbappé,12
+Jamaïque,Andre Lowe,Jamaica Observer,3,Cubarsi,10
+Jamaïque,Andre Lowe,Jamaica Observer,4,Messi,8
+Jamaïque,Andre Lowe,Jamaica Observer,5,Dembélé,7
+Jamaïque,Andre Lowe,Jamaica Observer,6,Lamine Yamal,5
+Jamaïque,Andre Lowe,Jamaica Observer,7,Bellingham,4
+Jamaïque,Andre Lowe,Jamaica Observer,8,Olise,3
+Jamaïque,Andre Lowe,Jamaica Observer,9,Haaland,2
+Jamaïque,Andre Lowe,Jamaica Observer,10,Vinicius Jr.,1
+Japon,Masayuki Tanabe,Sports Graphic Number,1,Kane,15
+Japon,Masayuki Tanabe,Sports Graphic Number,2,Lamine Yamal,12
+Japon,Masayuki Tanabe,Sports Graphic Number,3,Rodri,10
+Japon,Masayuki Tanabe,Sports Graphic Number,4,Mbappé,8
+Japon,Masayuki Tanabe,Sports Graphic Number,5,Messi,7
+Japon,Masayuki Tanabe,Sports Graphic Number,6,Olise,5
+Japon,Masayuki Tanabe,Sports Graphic Number,7,Kvaratskhelia,4
+Japon,Masayuki Tanabe,Sports Graphic Number,8,Dembélé,3
+Japon,Masayuki Tanabe,Sports Graphic Number,9,Haaland,2
+Japon,Masayuki Tanabe,Sports Graphic Number,10,Cubarsi,1
+Jordanie,Husam Barakat,Roya TV,1,Lamine Yamal,15
+Jordanie,Husam Barakat,Roya TV,2,Mbappé,12
+Jordanie,Husam Barakat,Roya TV,3,Haaland,10
+Jordanie,Husam Barakat,Roya TV,4,Rodri,8
+Jordanie,Husam Barakat,Roya TV,5,Bellingham,7
+Jordanie,Husam Barakat,Roya TV,6,Messi,5
+Jordanie,Husam Barakat,Roya TV,7,Kane,4
+Jordanie,Husam Barakat,Roya TV,8,Dembélé,3
+Jordanie,Husam Barakat,Roya TV,9,Kvaratskhelia,2
+Jordanie,Husam Barakat,Roya TV,10,Vinicius Jr.,1
+Kosovo,Bajram Shala,Freelance,1,Kane,15
+Kosovo,Bajram Shala,Freelance,2,Mbappé,12
+Kosovo,Bajram Shala,Freelance,3,Kvaratskhelia,10
+Kosovo,Bajram Shala,Freelance,4,Dembélé,8
+Kosovo,Bajram Shala,Freelance,5,F. Torres,7
+Kosovo,Bajram Shala,Freelance,6,Haaland,5
+Kosovo,Bajram Shala,Freelance,7,Lamine Yamal,4
+Kosovo,Bajram Shala,Freelance,8,Vinicius Jr.,3
+Kosovo,Bajram Shala,Freelance,9,Joao Neves,2
+Kosovo,Bajram Shala,Freelance,10,Cubarsi,1
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,1,Kane,15
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,2,Mbappé,12
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,3,Rodri,10
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,4,Lamine Yamal,8
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,5,Kvaratskhelia,7
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,6,Messi,5
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,7,Olise,4
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,8,Dembélé,3
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,9,Haaland,2
+Luxembourg,Jeff Kettenmeyer,RTL Luxembourg,10,Rice,1
+Macédoine du Nord,Mario Sotirovski,Vecer Press,1,Lamine Yamal,15
+Macédoine du Nord,Mario Sotirovski,Vecer Press,2,Dembélé,12
+Macédoine du Nord,Mario Sotirovski,Vecer Press,3,Kane,10
+Macédoine du Nord,Mario Sotirovski,Vecer Press,4,Mbappé,8
+Macédoine du Nord,Mario Sotirovski,Vecer Press,5,Olise,7
+Macédoine du Nord,Mario Sotirovski,Vecer Press,6,Kvaratskhelia,5
+Macédoine du Nord,Mario Sotirovski,Vecer Press,7,Messi,4
+Macédoine du Nord,Mario Sotirovski,Vecer Press,8,Rodri,3
+Macédoine du Nord,Mario Sotirovski,Vecer Press,9,L. Martinez,2
+Macédoine du Nord,Mario Sotirovski,Vecer Press,10,Cubarsi,1
+Mali,Souleymane Bobo Tounkara,L'Essor,1,Mbappé,15
+Mali,Souleymane Bobo Tounkara,L'Essor,2,Lamine Yamal,12
+Mali,Souleymane Bobo Tounkara,L'Essor,3,Dembélé,10
+Mali,Souleymane Bobo Tounkara,L'Essor,4,Kane,8
+Mali,Souleymane Bobo Tounkara,L'Essor,5,Vinicius Jr.,7
+Mali,Souleymane Bobo Tounkara,L'Essor,6,Cubarsi,5
+Mali,Souleymane Bobo Tounkara,L'Essor,7,Haaland,4
+Mali,Souleymane Bobo Tounkara,L'Essor,8,Olise,3
+Mali,Souleymane Bobo Tounkara,L'Essor,9,Kvaratskhelia,2
+Mali,Souleymane Bobo Tounkara,L'Essor,10,Rodri,1
+Maroc,Mostafa Badri,Almountakhab,1,Hakimi,15
+Maroc,Mostafa Badri,Almountakhab,2,Mbappé,12
+Maroc,Mostafa Badri,Almountakhab,3,Lamine Yamal,10
+Maroc,Mostafa Badri,Almountakhab,4,Kvaratskhelia,8
+Maroc,Mostafa Badri,Almountakhab,5,Dembélé,7
+Maroc,Mostafa Badri,Almountakhab,6,Kane,5
+Maroc,Mostafa Badri,Almountakhab,7,Messi,4
+Maroc,Mostafa Badri,Almountakhab,8,F. Ruiz,3
+Maroc,Mostafa Badri,Almountakhab,9,Olise,2
+Maroc,Mostafa Badri,Almountakhab,10,Haaland,1
+Mexique,Salvador Aguilera,Deportes CNN,1,Lamine Yamal,15
+Mexique,Salvador Aguilera,Deportes CNN,2,F. Ruiz,12
+Mexique,Salvador Aguilera,Deportes CNN,3,Dembélé,10
+Mexique,Salvador Aguilera,Deportes CNN,4,Mbappé,8
+Mexique,Salvador Aguilera,Deportes CNN,5,Haaland,7
+Mexique,Salvador Aguilera,Deportes CNN,6,F. Torres,5
+Mexique,Salvador Aguilera,Deportes CNN,7,Bellingham,4
+Mexique,Salvador Aguilera,Deportes CNN,8,Quinones,3
+Mexique,Salvador Aguilera,Deportes CNN,9,Rodri,2
+Mexique,Salvador Aguilera,Deportes CNN,10,Messi,1
+Monténégro,Danilo Mitrovic,ND Vijesti,1,Kane,15
+Monténégro,Danilo Mitrovic,ND Vijesti,2,Kvaratskhelia,12
+Monténégro,Danilo Mitrovic,ND Vijesti,3,Messi,10
+Monténégro,Danilo Mitrovic,ND Vijesti,4,Lamine Yamal,8
+Monténégro,Danilo Mitrovic,ND Vijesti,5,Mbappé,7
+Monténégro,Danilo Mitrovic,ND Vijesti,6,Rodri,5
+Monténégro,Danilo Mitrovic,ND Vijesti,7,Haaland,4
+Monténégro,Danilo Mitrovic,ND Vijesti,8,Bellingham,3
+Monténégro,Danilo Mitrovic,ND Vijesti,9,Rice,2
+Monténégro,Danilo Mitrovic,ND Vijesti,10,Cucurella,1
+Nigeria,Samm Audu,scorenigeria,1,Rodri,15
+Nigeria,Samm Audu,scorenigeria,2,Dembélé,12
+Nigeria,Samm Audu,scorenigeria,3,Haaland,10
+Nigeria,Samm Audu,scorenigeria,4,Messi,8
+Nigeria,Samm Audu,scorenigeria,5,Mbappé,7
+Nigeria,Samm Audu,scorenigeria,6,Lamine Yamal,5
+Nigeria,Samm Audu,scorenigeria,7,Kane,4
+Nigeria,Samm Audu,scorenigeria,8,Bellingham,3
+Nigeria,Samm Audu,scorenigeria,9,Olise,2
+Nigeria,Samm Audu,scorenigeria,10,Bruno Fernandes,1
+Norvège,Lars Tjaernaas,Aftenposten,1,Kane,15
+Norvège,Lars Tjaernaas,Aftenposten,2,Haaland,12
+Norvège,Lars Tjaernaas,Aftenposten,3,Lamine Yamal,10
+Norvège,Lars Tjaernaas,Aftenposten,4,Olise,8
+Norvège,Lars Tjaernaas,Aftenposten,5,Kvaratskhelia,7
+Norvège,Lars Tjaernaas,Aftenposten,6,Rodri,5
+Norvège,Lars Tjaernaas,Aftenposten,7,Mbappé,4
+Norvège,Lars Tjaernaas,Aftenposten,8,Messi,3
+Norvège,Lars Tjaernaas,Aftenposten,9,Bruno Fernandes,2
+Norvège,Lars Tjaernaas,Aftenposten,10,F. Ruiz,1
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,1,Kane,15
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,2,Mbappé,12
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,3,Lamine Yamal,10
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,4,Messi,8
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,5,Rodri,7
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,6,Haaland,5
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,7,Olise,4
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,8,Kvaratskhelia,3
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,9,Rice,2
+Nouvelle-Zélande,Michael Burgess,The New Zealand Herald,10,Bellingham,1
+Oman,Saleh al-Barhi,Al Watan,1,Kane,15
+Oman,Saleh al-Barhi,Al Watan,2,Mbappé,12
+Oman,Saleh al-Barhi,Al Watan,3,Lamine Yamal,10
+Oman,Saleh al-Barhi,Al Watan,4,Olise,8
+Oman,Saleh al-Barhi,Al Watan,5,Rodri,7
+Oman,Saleh al-Barhi,Al Watan,6,Messi,5
+Oman,Saleh al-Barhi,Al Watan,7,Dembélé,4
+Oman,Saleh al-Barhi,Al Watan,8,Vitinha,3
+Oman,Saleh al-Barhi,Al Watan,9,Haaland,2
+Oman,Saleh al-Barhi,Al Watan,10,Bellingham,1
+Ouganda,Darren Allan Kyeyune,Daily Monitor,1,Kane,15
+Ouganda,Darren Allan Kyeyune,Daily Monitor,2,Lamine Yamal,12
+Ouganda,Darren Allan Kyeyune,Daily Monitor,3,Rodri,10
+Ouganda,Darren Allan Kyeyune,Daily Monitor,4,Mbappé,8
+Ouganda,Darren Allan Kyeyune,Daily Monitor,5,Messi,7
+Ouganda,Darren Allan Kyeyune,Daily Monitor,6,F. Ruiz,5
+Ouganda,Darren Allan Kyeyune,Daily Monitor,7,Kvaratskhelia,4
+Ouganda,Darren Allan Kyeyune,Daily Monitor,8,Haaland,3
+Ouganda,Darren Allan Kyeyune,Daily Monitor,9,Olise,2
+Ouganda,Darren Allan Kyeyune,Daily Monitor,10,Cubarsi,1
+Ouzbékistan,Narzulla Saydullaev,championat.asia,1,Kane,15
+Ouzbékistan,Narzulla Saydullaev,championat.asia,2,Lamine Yamal,12
+Ouzbékistan,Narzulla Saydullaev,championat.asia,3,Mbappé,10
+Ouzbékistan,Narzulla Saydullaev,championat.asia,4,Messi,8
+Ouzbékistan,Narzulla Saydullaev,championat.asia,5,Kvaratskhelia,7
+Ouzbékistan,Narzulla Saydullaev,championat.asia,6,Olise,5
+Ouzbékistan,Narzulla Saydullaev,championat.asia,7,Dembélé,4
+Ouzbékistan,Narzulla Saydullaev,championat.asia,8,Rodri,3
+Ouzbékistan,Narzulla Saydullaev,championat.asia,9,Haaland,2
+Ouzbékistan,Narzulla Saydullaev,championat.asia,10,Bellingham,1
+Palestine,Mohamad Iraqi,Al-Ayyam,1,Mbappé,15
+Palestine,Mohamad Iraqi,Al-Ayyam,2,Kane,12
+Palestine,Mohamad Iraqi,Al-Ayyam,3,Lamine Yamal,10
+Palestine,Mohamad Iraqi,Al-Ayyam,4,Olise,8
+Palestine,Mohamad Iraqi,Al-Ayyam,5,Messi,7
+Palestine,Mohamad Iraqi,Al-Ayyam,6,Kvaratskhelia,5
+Palestine,Mohamad Iraqi,Al-Ayyam,7,Rice,4
+Palestine,Mohamad Iraqi,Al-Ayyam,8,Rodri,3
+Palestine,Mohamad Iraqi,Al-Ayyam,9,Haaland,2
+Palestine,Mohamad Iraqi,Al-Ayyam,10,Dembélé,1
+Panama,Humberto Cornejo,La Prensa,1,Messi,15
+Panama,Humberto Cornejo,La Prensa,2,Mbappé,12
+Panama,Humberto Cornejo,La Prensa,3,Kane,10
+Panama,Humberto Cornejo,La Prensa,4,Dembélé,8
+Panama,Humberto Cornejo,La Prensa,5,Lamine Yamal,7
+Panama,Humberto Cornejo,La Prensa,6,Haaland,5
+Panama,Humberto Cornejo,La Prensa,7,Kvaratskhelia,4
+Panama,Humberto Cornejo,La Prensa,8,Vitinha,3
+Panama,Humberto Cornejo,La Prensa,9,Rodri,2
+Panama,Humberto Cornejo,La Prensa,10,F. Ruiz,1
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,1,Mbappé,15
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,2,Rodri,12
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,3,Lamine Yamal,10
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,4,Messi,8
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,5,Olise,7
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,6,Kane,5
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,7,Vinicius Jr.,4
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,8,Dembélé,3
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,9,Bellingham,2
+Paraguay,Ruben Dario Da Rosa,Tigo Sports et Telefuturo,10,Luis Diaz,1
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,1,Mbappé,15
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,2,Rodri,12
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,3,Kane,10
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,4,Messi,8
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,5,Haaland,7
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,6,Kvaratskhelia,5
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,7,Dembélé,4
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,8,Lamine Yamal,3
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,9,Hakimi,2
+Pays-Bas,Frans van den Nieuwenhof,Voetbal International,10,Cubarsi,1
+Pérou,Carlos Salinas,Diario Libero,1,F. Ruiz,15
+Pérou,Carlos Salinas,Diario Libero,2,Kvaratskhelia,12
+Pérou,Carlos Salinas,Diario Libero,3,Rodri,10
+Pérou,Carlos Salinas,Diario Libero,4,Mbappé,8
+Pérou,Carlos Salinas,Diario Libero,5,Lamine Yamal,7
+Pérou,Carlos Salinas,Diario Libero,6,Messi,5
+Pérou,Carlos Salinas,Diario Libero,7,Kane,4
+Pérou,Carlos Salinas,Diario Libero,8,Haaland,3
+Pérou,Carlos Salinas,Diario Libero,9,Dembélé,2
+Pérou,Carlos Salinas,Diario Libero,10,Cucurella,1
+Pologne,Maciej Iwanski,TVP Sport,1,Kane,15
+Pologne,Maciej Iwanski,TVP Sport,2,Mbappé,12
+Pologne,Maciej Iwanski,TVP Sport,3,Lamine Yamal,10
+Pologne,Maciej Iwanski,TVP Sport,4,Rodri,8
+Pologne,Maciej Iwanski,TVP Sport,5,Messi,7
+Pologne,Maciej Iwanski,TVP Sport,6,Olise,5
+Pologne,Maciej Iwanski,TVP Sport,7,Haaland,4
+Pologne,Maciej Iwanski,TVP Sport,8,Dembélé,3
+Pologne,Maciej Iwanski,TVP Sport,9,Kvaratskhelia,2
+Pologne,Maciej Iwanski,TVP Sport,10,F. Torres,1
+Portugal,Antonio Tadeia,RTP et Substack,1,Lamine Yamal,15
+Portugal,Antonio Tadeia,RTP et Substack,2,Mbappé,12
+Portugal,Antonio Tadeia,RTP et Substack,3,Haaland,10
+Portugal,Antonio Tadeia,RTP et Substack,4,Kvaratskhelia,8
+Portugal,Antonio Tadeia,RTP et Substack,5,Cubarsi,7
+Portugal,Antonio Tadeia,RTP et Substack,6,Kane,5
+Portugal,Antonio Tadeia,RTP et Substack,7,Messi,4
+Portugal,Antonio Tadeia,RTP et Substack,8,N. Mendes,3
+Portugal,Antonio Tadeia,RTP et Substack,9,L. Martinez,2
+Portugal,Antonio Tadeia,RTP et Substack,10,Rodri,1
+Qatar,Majed Alkhelaifi,Stad Doha,1,Mbappé,15
+Qatar,Majed Alkhelaifi,Stad Doha,2,Lamine Yamal,12
+Qatar,Majed Alkhelaifi,Stad Doha,3,Messi,10
+Qatar,Majed Alkhelaifi,Stad Doha,4,Dembélé,8
+Qatar,Majed Alkhelaifi,Stad Doha,5,Haaland,7
+Qatar,Majed Alkhelaifi,Stad Doha,6,Kane,5
+Qatar,Majed Alkhelaifi,Stad Doha,7,Kvaratskhelia,4
+Qatar,Majed Alkhelaifi,Stad Doha,8,Rodri,3
+Qatar,Majed Alkhelaifi,Stad Doha,9,Hakimi,2
+Qatar,Majed Alkhelaifi,Stad Doha,10,Vitinha,1
+RD Congo,Sylvie Meya Muabi,Top Congo FM,1,Mbappé,15
+RD Congo,Sylvie Meya Muabi,Top Congo FM,2,F. Ruiz,12
+RD Congo,Sylvie Meya Muabi,Top Congo FM,3,Kane,10
+RD Congo,Sylvie Meya Muabi,Top Congo FM,4,Dembélé,8
+RD Congo,Sylvie Meya Muabi,Top Congo FM,5,Lamine Yamal,7
+RD Congo,Sylvie Meya Muabi,Top Congo FM,6,Olise,5
+RD Congo,Sylvie Meya Muabi,Top Congo FM,7,Kvaratskhelia,4
+RD Congo,Sylvie Meya Muabi,Top Congo FM,8,Bellingham,3
+RD Congo,Sylvie Meya Muabi,Top Congo FM,9,Rodri,2
+RD Congo,Sylvie Meya Muabi,Top Congo FM,10,L. Martinez,1
+République tchèque,Stanislav Hrabe,Ruik Football,1,Rodri,15
+République tchèque,Stanislav Hrabe,Ruik Football,2,Mbappé,12
+République tchèque,Stanislav Hrabe,Ruik Football,3,Messi,10
+République tchèque,Stanislav Hrabe,Ruik Football,4,Lamine Yamal,8
+République tchèque,Stanislav Hrabe,Ruik Football,5,Dembélé,7
+République tchèque,Stanislav Hrabe,Ruik Football,6,Bellingham,5
+République tchèque,Stanislav Hrabe,Ruik Football,7,F. Ruiz,4
+République tchèque,Stanislav Hrabe,Ruik Football,8,Haaland,3
+République tchèque,Stanislav Hrabe,Ruik Football,9,Kvaratskhelia,2
+République tchèque,Stanislav Hrabe,Ruik Football,10,Kane,1
+Roumanie,Emanuel Rosu,Fanatik Romania,1,Mbappé,15
+Roumanie,Emanuel Rosu,Fanatik Romania,2,Kane,12
+Roumanie,Emanuel Rosu,Fanatik Romania,3,Kvaratskhelia,10
+Roumanie,Emanuel Rosu,Fanatik Romania,4,Haaland,8
+Roumanie,Emanuel Rosu,Fanatik Romania,5,Lamine Yamal,7
+Roumanie,Emanuel Rosu,Fanatik Romania,6,Messi,5
+Roumanie,Emanuel Rosu,Fanatik Romania,7,Vitinha,4
+Roumanie,Emanuel Rosu,Fanatik Romania,8,Joao Neves,3
+Roumanie,Emanuel Rosu,Fanatik Romania,9,Hakimi,2
+Roumanie,Emanuel Rosu,Fanatik Romania,10,Rodri,1
+Russie,Constantin Klechtchev,Match TV,1,Kane,15
+Russie,Constantin Klechtchev,Match TV,2,Mbappé,12
+Russie,Constantin Klechtchev,Match TV,3,Lamine Yamal,10
+Russie,Constantin Klechtchev,Match TV,4,Messi,8
+Russie,Constantin Klechtchev,Match TV,5,Kvaratskhelia,7
+Russie,Constantin Klechtchev,Match TV,6,Dembélé,5
+Russie,Constantin Klechtchev,Match TV,7,Haaland,4
+Russie,Constantin Klechtchev,Match TV,8,Rodri,3
+Russie,Constantin Klechtchev,Match TV,9,Vitinha,2
+Russie,Constantin Klechtchev,Match TV,10,Hakimi,1
+Salvador,Ricardo Menéndez,Radio Punto 105,1,Kane,15
+Salvador,Ricardo Menéndez,Radio Punto 105,2,Kvaratskhelia,12
+Salvador,Ricardo Menéndez,Radio Punto 105,3,Messi,10
+Salvador,Ricardo Menéndez,Radio Punto 105,4,Rodri,8
+Salvador,Ricardo Menéndez,Radio Punto 105,5,Cubarsi,7
+Salvador,Ricardo Menéndez,Radio Punto 105,6,Lamine Yamal,5
+Salvador,Ricardo Menéndez,Radio Punto 105,7,Mbappé,4
+Salvador,Ricardo Menéndez,Radio Punto 105,8,Haaland,3
+Salvador,Ricardo Menéndez,Radio Punto 105,9,Olise,2
+Salvador,Ricardo Menéndez,Radio Punto 105,10,Rice,1
+Sénégal,Idrissa Sané,Challenge Sports,1,Kane,15
+Sénégal,Idrissa Sané,Challenge Sports,2,Lamine Yamal,12
+Sénégal,Idrissa Sané,Challenge Sports,3,Mbappé,10
+Sénégal,Idrissa Sané,Challenge Sports,4,Dembélé,8
+Sénégal,Idrissa Sané,Challenge Sports,5,Rodri,7
+Sénégal,Idrissa Sané,Challenge Sports,6,Messi,5
+Sénégal,Idrissa Sané,Challenge Sports,7,Kvaratskhelia,4
+Sénégal,Idrissa Sané,Challenge Sports,8,Olise,3
+Sénégal,Idrissa Sané,Challenge Sports,9,F. Ruiz,2
+Sénégal,Idrissa Sané,Challenge Sports,10,Bellingham,1
+Serbie,Zoran Stojadinovic,Sportski Zurnal,1,Rodri,15
+Serbie,Zoran Stojadinovic,Sportski Zurnal,2,Mbappé,12
+Serbie,Zoran Stojadinovic,Sportski Zurnal,3,Lamine Yamal,10
+Serbie,Zoran Stojadinovic,Sportski Zurnal,4,Kane,8
+Serbie,Zoran Stojadinovic,Sportski Zurnal,5,Dembélé,7
+Serbie,Zoran Stojadinovic,Sportski Zurnal,6,F. Ruiz,5
+Serbie,Zoran Stojadinovic,Sportski Zurnal,7,Olise,4
+Serbie,Zoran Stojadinovic,Sportski Zurnal,8,Bellingham,3
+Serbie,Zoran Stojadinovic,Sportski Zurnal,9,Messi,2
+Serbie,Zoran Stojadinovic,Sportski Zurnal,10,Haaland,1
+Slovaquie,Erik Farkas,sport.sk,1,Kane,15
+Slovaquie,Erik Farkas,sport.sk,2,Mbappé,12
+Slovaquie,Erik Farkas,sport.sk,3,Rodri,10
+Slovaquie,Erik Farkas,sport.sk,4,Lamine Yamal,8
+Slovaquie,Erik Farkas,sport.sk,5,Dembélé,7
+Slovaquie,Erik Farkas,sport.sk,6,Olise,5
+Slovaquie,Erik Farkas,sport.sk,7,Kvaratskhelia,4
+Slovaquie,Erik Farkas,sport.sk,8,Haaland,3
+Slovaquie,Erik Farkas,sport.sk,9,Messi,2
+Slovaquie,Erik Farkas,sport.sk,10,Cubarsi,1
+Slovénie,Ales Potocnik,RTV Slovenija,1,Kane,15
+Slovénie,Ales Potocnik,RTV Slovenija,2,Rodri,12
+Slovénie,Ales Potocnik,RTV Slovenija,3,Mbappé,10
+Slovénie,Ales Potocnik,RTV Slovenija,4,Haaland,8
+Slovénie,Ales Potocnik,RTV Slovenija,5,Messi,7
+Slovénie,Ales Potocnik,RTV Slovenija,6,Kvaratskhelia,5
+Slovénie,Ales Potocnik,RTV Slovenija,7,Dembélé,4
+Slovénie,Ales Potocnik,RTV Slovenija,8,Lamine Yamal,3
+Slovénie,Ales Potocnik,RTV Slovenija,9,Olise,2
+Slovénie,Ales Potocnik,RTV Slovenija,10,Vitinha,1
+Suède,Anders Bengtsson,Offside,1,Kane,15
+Suède,Anders Bengtsson,Offside,2,Mbappé,12
+Suède,Anders Bengtsson,Offside,3,Lamine Yamal,10
+Suède,Anders Bengtsson,Offside,4,Kvaratskhelia,8
+Suède,Anders Bengtsson,Offside,5,Haaland,7
+Suède,Anders Bengtsson,Offside,6,Rodri,5
+Suède,Anders Bengtsson,Offside,7,Olise,4
+Suède,Anders Bengtsson,Offside,8,F. Ruiz,3
+Suède,Anders Bengtsson,Offside,9,Marquinhos,2
+Suède,Anders Bengtsson,Offside,10,Bellingham,1
+Suisse,Daniel Visentini,La Tribune de Genève,1,Lamine Yamal,15
+Suisse,Daniel Visentini,La Tribune de Genève,2,Kane,12
+Suisse,Daniel Visentini,La Tribune de Genève,3,Cubarsi,10
+Suisse,Daniel Visentini,La Tribune de Genève,4,Dembélé,8
+Suisse,Daniel Visentini,La Tribune de Genève,5,Mbappé,7
+Suisse,Daniel Visentini,La Tribune de Genève,6,Rodri,5
+Suisse,Daniel Visentini,La Tribune de Genève,7,Kvaratskhelia,4
+Suisse,Daniel Visentini,La Tribune de Genève,8,Olise,3
+Suisse,Daniel Visentini,La Tribune de Genève,9,Messi,2
+Suisse,Daniel Visentini,La Tribune de Genève,10,Haaland,1
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,1,F. Ruiz,15
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,2,Messi,12
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,3,Kane,10
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,4,Hakimi,8
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,5,Mbappé,7
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,6,Kvaratskhelia,5
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,7,Lamine Yamal,4
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,8,Haaland,3
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,9,F. Torres,2
+Syrie,Orwa Qanawati,Al-Mawqif Al-Riyadi,10,Bellingham,1
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,1,Rodri,15
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,2,Kvaratskhelia,12
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,3,Messi,10
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,4,Mbappé,8
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,5,Dembélé,7
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,6,Lamine Yamal,5
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,7,Kane,4
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,8,F. Ruiz,3
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,9,Rice,2
+Thaïlande,Urai Patoommawatana,Main Stand et T-Sports7,10,Hakimi,1
+Tunisie,Abdessalem Dhifallah,Radio Orient,1,Lamine Yamal,15
+Tunisie,Abdessalem Dhifallah,Radio Orient,2,Messi,12
+Tunisie,Abdessalem Dhifallah,Radio Orient,3,Dembélé,10
+Tunisie,Abdessalem Dhifallah,Radio Orient,4,Mbappé,8
+Tunisie,Abdessalem Dhifallah,Radio Orient,5,Kane,7
+Tunisie,Abdessalem Dhifallah,Radio Orient,6,Kvaratskhelia,5
+Tunisie,Abdessalem Dhifallah,Radio Orient,7,Hakimi,4
+Tunisie,Abdessalem Dhifallah,Radio Orient,8,Rodri,3
+Tunisie,Abdessalem Dhifallah,Radio Orient,9,Vitinha,2
+Tunisie,Abdessalem Dhifallah,Radio Orient,10,Cubarsi,1
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,1,Lamine Yamal,15
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,2,Kane,12
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,3,Mbappé,10
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,4,Rodri,8
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,5,Messi,7
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,6,Kvaratskhelia,5
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,7,F. Ruiz,4
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,8,Vitinha,3
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,9,Haaland,2
+Turquie,Fatih Dogan,Sabah Newspaper et TRT Spor,10,Dembélé,1
+Ukraine,Igor Linnyk,FootClub,1,F. Ruiz,15
+Ukraine,Igor Linnyk,FootClub,2,Cubarsi,12
+Ukraine,Igor Linnyk,FootClub,3,Kvaratskhelia,10
+Ukraine,Igor Linnyk,FootClub,4,Rice,8
+Ukraine,Igor Linnyk,FootClub,5,Rodri,7
+Ukraine,Igor Linnyk,FootClub,6,Gabriel,5
+Ukraine,Igor Linnyk,FootClub,7,Lamine Yamal,4
+Ukraine,Igor Linnyk,FootClub,8,Dembélé,3
+Ukraine,Igor Linnyk,FootClub,9,Kane,2
+Ukraine,Igor Linnyk,FootClub,10,F. Torres,1
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,1,Kane,15
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,2,Lamine Yamal,12
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,3,Mbappé,10
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,4,Kvaratskhelia,8
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,5,Haaland,7
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,6,Rodri,5
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,7,Messi,4
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,8,Cubarsi,3
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,9,Dembélé,2
+Uruguay,Alvaro Gonzalez Marquez,99.5 FM Del Sol,10,Olise,1
+Venezuela,Francisco Blavia,Simple TV,1,Kane,15
+Venezuela,Francisco Blavia,Simple TV,2,Lamine Yamal,12
+Venezuela,Francisco Blavia,Simple TV,3,Mbappé,10
+Venezuela,Francisco Blavia,Simple TV,4,Messi,8
+Venezuela,Francisco Blavia,Simple TV,5,Rodri,7
+Venezuela,Francisco Blavia,Simple TV,6,Olise,5
+Venezuela,Francisco Blavia,Simple TV,7,Kvaratskhelia,4
+Venezuela,Francisco Blavia,Simple TV,8,Cubarsi,3
+Venezuela,Francisco Blavia,Simple TV,9,F. Ruiz,2
+Venezuela,Francisco Blavia,Simple TV,10,Dembélé,1
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,1,Rodri,15
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,2,Messi,12
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,3,Kane,10
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,4,Lamine Yamal,8
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,5,Mbappé,7
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,6,Kvaratskhelia,5
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,7,Dembélé,4
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,8,Haaland,3
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,9,Bellingham,2
+Vietnam,Truong Anh Ngoc,The Thao and Van Hoa,10,F. Torres,1
+Zambie,Calvin Kaumba Chikenge,BolaNews,1,Mbappé,15
+Zambie,Calvin Kaumba Chikenge,BolaNews,2,Olise,12
+Zambie,Calvin Kaumba Chikenge,BolaNews,3,Kane,10
+Zambie,Calvin Kaumba Chikenge,BolaNews,4,Lamine Yamal,8
+Zambie,Calvin Kaumba Chikenge,BolaNews,5,Kvaratskhelia,7
+Zambie,Calvin Kaumba Chikenge,BolaNews,6,Rodri,5
+Zambie,Calvin Kaumba Chikenge,BolaNews,7,Dembélé,4
+Zambie,Calvin Kaumba Chikenge,BolaNews,8,Haaland,3
+Zambie,Calvin Kaumba Chikenge,BolaNews,9,Messi,2
+Zambie,Calvin Kaumba Chikenge,BolaNews,10,Bellingham,1

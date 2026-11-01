@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Atlas du Ballon d'or</title>
+  <meta name="description" content="Qui a voté pour qui ? Les 100 bulletins du Ballon d'or 2026 sur une carte, pays par pays, et 70 ans d'histoire du trophée.">
+  <meta name="author" content="Rémi AYMARD">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Atlas du Ballon d'or 2026">
+  <meta property="og:description" content="Les 100 bulletins du vote, pays par pays : votes patriotiques, rivalités, favoris oubliés… et 70 ans d'histoire.">
+  <!-- Image générée par scripts/creer_apercu.py ; LinkedIn exige des adresses absolues -->
+  <meta property="og:url" content="https://foxraa.github.io/atlas-ballon-or/">
+  <meta property="og:image" content="https://foxraa.github.io/atlas-ballon-or/apercu.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="Carte du monde coloriée selon le 1er choix de chaque juré du Ballon d'or 2026">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#121212">
+  <link rel="icon" type="image/svg+xml" href="ballon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Police des drapeaux : Windows n'affiche pas les drapeaux en émoji, Google ne sert que les tranches utilisées -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Téléphone (≤ 900px) : carte plein écran, tiroir et barre d'onglets ; sans effet sur ordinateur -->
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <noscript><p class="sans-js">L'Atlas du Ballon d'or a besoin de JavaScript pour afficher la carte et les votes.
+    Conçu et réalisé par Rémi AYMARD, novembre 2026.</p></noscript>
+  <header class="entete">
+    <div class="titre">
+      <span class="pastille" aria-hidden="true"></span>
+      <div>
+        <h1>Atlas du Ballon d'or</h1>
+        <p class="sous-titre">Le vote 2026 pays par pays, et 70 ans d'histoire du trophée</p>
+      </div>
+    </div>
+
+    <!-- Menu des rubriques, dans l'en-tête au-dessus de la carte : il pilote le panneau et la carte.
+         Sur mobile il passe sous le titre et reste collé en haut de l'écran. -->
+    <nav class="onglets" role="tablist" aria-label="Rubriques">
+      <button role="tab" data-onglet="classement" aria-selected="true">Le vote</button>
+      <button role="tab" data-onglet="tonvote" class="onglet-cta">Ton vote</button>
+      <button role="tab" data-onglet="revelations">Révélations</button>
+      <button role="tab" data-onglet="histoire">Histoire</button>
+    </nav>
+
+    <div class="actions">
+      <button class="bouton-rond bouton-rejouer" id="bouton-rejouer" type="button" aria-label="Revoir le dépouillement"
+        title="Revoir le dépouillement des 100 bulletins"><span aria-hidden="true">▶</span><span class="libelle">Revoir le dépouillement</span></button>
+      <button class="bouton-rond bouton-rejouer" id="bouton-credits" type="button" aria-label="Crédits" aria-haspopup="dialog"
+        title="Qui a fait cet atlas, et avec quelles sources"><span aria-hidden="true">ⓘ</span><span class="libelle">Crédits</span></button>
+      <button class="bouton-rond" id="bouton-theme" type="button" aria-label="Changer de thème" title="Changer de thème">◐</button>
+    </div>
+  </header>
+
+  <main class="disposition">
+    <!-- en-intro dès le chargement : le classement reste flou jusqu'à la fin du dépouillement -->
+    <section class="zone-carte en-intro" aria-label="Carte">
+      <div id="carte"></div>
+      <div class="legende" id="legende"></div>
+
+      <div class="bascule-echelle" id="bascule-echelle" role="group" aria-label="Échelle de la carte">
+        <span class="curseur" aria-hidden="true"></span>
+        <button type="button" data-echelle="pays" aria-pressed="true">Par pays</button>
+        <button type="button" data-echelle="continent" aria-pressed="false">Par continent</button>
+      </div>
+
+      <div class="recherche" id="recherche">
+        <label class="cache" for="recherche-pays">Chercher un pays ou un joueur</label>
+        <input id="recherche-pays" type="search" placeholder="Chercher un pays ou un joueur…" autocomplete="off" spellcheck="false"
+          role="combobox" aria-expanded="false" aria-controls="recherche-liste" aria-autocomplete="list">
+        <ul id="recherche-liste" role="listbox" aria-label="Résultats" hidden></ul>
+      </div>
+
+      <div class="depouillement" id="depouillement" hidden>
+        <div class="depouillement-tete">
+          <span class="direct">Dépouillement</span>
+          <span class="compteur"><strong id="compteur-bulletins">0</strong>/100 bulletins</span>
+          <button type="button" id="bouton-passer">Passer</button>
+        </div>
+        <div class="dernier" id="dernier-bulletin">&nbsp;</div>
+        <ol class="course" id="course"></ol>
+      </div>
+
+      <div class="podium" id="podium" hidden role="dialog" aria-labelledby="podium-nom"></div>
+    </section>
+
+    <section class="panneau">
+      <div class="contenu" id="contenu"></div>
+      <div class="poignee-panneau" id="poignee-panneau" role="separator" aria-orientation="vertical" tabindex="0"
+        aria-label="Largeur du panneau (double-clic : ajuster au texte)" title="Glisser pour élargir · double-clic pour ajuster au texte"></div>
+    </section>
+
+    <aside class="volet-joueur" id="volet-joueur" aria-label="Fiche du joueur" hidden></aside>
+  </main>
+
+  <aside class="fiche" id="fiche" hidden></aside>
+
+  <div class="partage" id="partage" hidden role="dialog" aria-modal="true" aria-label="Image à partager">
+    <div class="partage-carte">
+      <button type="button" class="fermer" id="partage-fermer" aria-label="Fermer">×</button>
+      <img id="partage-image" alt="Image à partager">
+      <p class="meta" id="partage-etat"></p>
+      <label class="champ" for="partage-texte">Texte à coller avec l'image</label>
+      <textarea id="partage-texte" class="saisie" rows="3" readonly></textarea>
+      <div class="partage-actions">
+        <button type="button" class="bouton-principal" id="partage-natif" hidden>Partager</button>
+        <button type="button" class="bouton-second" id="partage-copier">Copier le texte</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rempli par app.js (blocCredits), comme le pied de l'onglet « Le vote » -->
+  <div class="partage" id="credits" hidden role="dialog" aria-modal="true" aria-labelledby="credits-titre">
+    <div class="partage-carte fenetre-credits">
+      <button type="button" class="fermer" id="credits-fermer" aria-label="Fermer">×</button>
+      <div id="credits-contenu"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

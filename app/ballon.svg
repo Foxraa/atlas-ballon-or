@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs><radialGradient id="o" cx=".36" cy=".3" r=".75"><stop offset="0" stop-color="#f7e2a0"/><stop offset=".55" stop-color="#e2b54a"/><stop offset="1" stop-color="#7a5a08"/></radialGradient>
+<clipPath id="b"><circle cx="32" cy="32" r="30"/></clipPath></defs>
+<circle cx="32" cy="32" r="30" fill="url(#o)"/>
+<g clip-path="url(#b)" fill="#6b4c06" fill-opacity=".85" stroke="#6b4c06" stroke-width="1.6" stroke-linejoin="round">
+<path d="M32.0 23.0 L40.6 29.2 L37.3 39.3 L26.7 39.3 L23.4 29.2Z M32.0 12.0 L24.4 6.5 L27.3 -2.5 L36.7 -2.5 L39.6 6.5Z M51.0 25.8 L53.9 16.9 L63.3 16.9 L66.2 25.8 L58.6 31.3Z M43.8 48.2 L53.2 48.2 L56.1 57.1 L48.5 62.7 L40.8 57.1Z M20.2 48.2 L23.2 57.1 L15.5 62.7 L7.9 57.1 L10.8 48.2Z M13.0 25.8 L5.4 31.3 L-2.2 25.8 L0.7 16.9 L10.1 16.9Z"/><path d="M32.0 23.0 L32.0 12.0 M40.6 29.2 L51.0 25.8 M37.3 39.3 L43.8 48.2 M26.7 39.3 L20.2 48.2 M23.4 29.2 L13.0 25.8 M39.6 6.5 L53.9 16.9 M58.6 31.3 L53.2 48.2 M40.8 57.1 L23.2 57.1 M10.8 48.2 L5.4 31.3 M10.1 16.9 L24.4 6.5" fill="none"/></g>
+<ellipse cx="23" cy="18" rx="9" ry="5" fill="#fff" fill-opacity=".3" transform="rotate(-30 23 18)"/>
+</svg>
