@@ -28,6 +28,10 @@ jobs:
           python-version: "3.12"
       # Régénère app/data.js depuis les CSV : le site publié suit toujours les données
       - run: python scripts/preparer_donnees.py
+      # GitHub Pages garde chaque fichier 10 min en cache : les CSS et JS locaux prennent le commit dans leur adresse,
+      # pour qu'une page neuve ne tourne jamais avec le style.css ou l'app.js de la version d'avant
+      - run: |
+          sed -i -E "s/(href|src)=\"([^\":]+\.(css|js))\"/\1=\"\2?v=${GITHUB_SHA::8}\"/g" app/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
