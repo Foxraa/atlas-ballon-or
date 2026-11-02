@@ -53,6 +53,9 @@ Source des votes : Ballon d'or, France Football 2026.
 
 Après toute modification d'un CSV, relancer `python scripts/preparer_donnees.py` (ou `lancer.bat`).
 
+Les contours de pays ne connaissent que le Royaume-Uni ; `app/royaume-uni.js` y substitue l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord,
+qui ont chacun leur juré. Il est extrait de Natural Earth (`ne_50m_admin_0_map_units.geojson`, domaine public) par `python scripts/extraire_royaume_uni.py <fichier geojson>`.
+
 ## LinkedIn
 
 - `app/apercu.png` : image d'aperçu des liens partagés (1200×627), régénérée par `python scripts/creer_apercu.py` (Pillow requis).

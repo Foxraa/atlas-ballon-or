@@ -77,6 +77,14 @@
   const CLASSES_ACCORD = ["#c7e9b4", "#7fcdbb", "#41b6c4", "#2c7fb8", "#253494"];
   const classeAccord = p => Math.min(CLASSES_ACCORD.length - 1, Math.floor(parAccord.indexOf(p) * CLASSES_ACCORD.length / PAYS.length));
   const couleurAccord = p => CLASSES_ACCORD[classeAccord(p)];
+  // Duel du vainqueur et de son dauphin : écart de points juré par juré, de −15 à +15, neutre à égalité
+  const [DUEL_A, DUEL_B] = classement;
+  const ecartDuel = p => pts[p][DUEL_A] - pts[p][DUEL_B];
+  const ECART_DUEL = totaux[DUEL_A] - totaux[DUEL_B];
+  // Juré qui, en inversant les deux joueurs sur son bulletin, aurait changé le vainqueur à lui seul (null s'il n'y en a pas)
+  const DECISIF = PAYS.map(p => ({ p, marge: 2 * ecartDuel(p) - ECART_DUEL })).filter(x => x.marge > 0).sort((a, b) => b.marge - a.marge)[0] || null;
+  const echelleDuel = e => Math.abs(e) < 0.5 ? "#e7dfcf"
+    : melange("#e7dfcf", COULEUR_JOUEUR[e > 0 ? DUEL_A : DUEL_B], 0.3 + 0.7 * Math.min(1, Math.abs(e) / 15));
 
   // ---------- Utilitaires ----------
   const $ = s => document.querySelector(s);
@@ -159,7 +167,9 @@
     const iso = D.pays[p].iso;
     (paysParIso[iso] = paysParIso[iso] || []).push(p);
   });
+  // Les quatre nations du Royaume-Uni (royaume-uni.js) portent directement le nom de leur pays
   const paysPolygone = f => {
+    if (f.properties.pays) return f.properties.pays;
     const iso = f.id === undefined ? (f.properties.name === "Kosovo" ? "-99" : null) : String(f.id).padStart(3, "0");
     const liste = iso ? paysParIso[iso] : null;
     if (!liste) return null;
@@ -172,13 +182,34 @@
   const calqueSurcouche = L.layerGroup().addTo(carte);
   const marqueurs = {};
 
-  // Marqueurs gardés hors carte : le style et les animations les manipulent, mais seuls les polygones s'affichent
+  // Une pastille par juré, affichée seulement à l'échelle « Par juré » (calquePastilles) ; ailleurs seuls les polygones s'affichent
+  const RAYON_PASTILLE = 6;
   PAYS.forEach(p => {
-    const m = L.circleMarker([D.pays[p].lat, D.pays[p].lon], { radius: 5, weight: 1.5, fillOpacity: 1 })
+    const m = L.circleMarker([D.pays[p].lat, D.pays[p].lon], { radius: RAYON_PASTILLE, weight: 1.5, fillOpacity: 1, className: "pastille" })
       .bindTooltip(() => infobulle(p), { className: "infobulle", direction: "top", offset: [0, -4] })
       .on("click", e => ouvrirFicheOuContinent(p, e.latlng));
     marqueurs[p] = m;
   });
+  const calquePastilles = L.layerGroup(Object.values(marqueurs));
+
+  // Écarte juste assez les pastilles qui se chevauchent au zoom courant ; plus on zoome, plus elles reviennent à leur place
+  function ecarterPastilles() {
+    if (!carte.hasLayer(calquePastilles)) return;
+    const z = carte.getZoom(), ecart = 2 * RAYON_PASTILLE + 2;
+    const exact = PAYS.map(p => carte.project([D.pays[p].lat, D.pays[p].lon], z));
+    const pos = exact.map(q => q.clone());
+    for (let it = 0; it < 120; it++) {
+      for (let i = 0; i < pos.length; i++) for (let j = i + 1; j < pos.length; j++) {
+        const dx = pos[j].x - pos[i].x, dy = pos[j].y - pos[i].y, d = Math.hypot(dx, dy) || 0.01;
+        if (d >= ecart) continue;
+        const k = (ecart - d) / d / 2;
+        pos[i].x -= dx * k; pos[i].y -= dy * k; pos[j].x += dx * k; pos[j].y += dy * k;
+      }
+      pos.forEach((q, i) => { q.x += (exact[i].x - q.x) * 0.02; q.y += (exact[i].y - q.y) * 0.02; });
+    }
+    PAYS.forEach((p, i) => marqueurs[p].setLatLng(carte.unproject(pos[i], z)));
+  }
+  carte.on("zoomend", ecarterPastilles);
 
   // Contours servis avec l'appli ; repli sur le CDN quand la page est ouverte en file://
   const chargerJson = url => fetch(url).then(r => { if (!r.ok) throw new Error(url); return r.json(); });
@@ -187,6 +218,11 @@
     .then(topo => {
       const geo = topojson.feature(topo, topo.objects.countries);
       geo.features = geo.features.filter(f => f.id !== "010"); // Antarctique
+      // Le Royaume-Uni est remplacé par ses quatre nations, qui ont chacune leur juré ; elles gardent son code pour l'onglet Histoire
+      if (window.ROYAUME_UNI) {
+        geo.features = geo.features.filter(f => f.id !== "826").concat(window.ROYAUME_UNI.features.map(f =>
+          Object.assign({}, f, { id: "826", properties: Object.assign({ name: "Royaume-Uni" }, f.properties) })));
+      }
       // Les anneaux qui traversent l'antiméridien (Russie, Fidji) sont recollés côté est pour éviter une bande parasite
       geo.features.forEach(f => {
         const polys = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
@@ -198,7 +234,7 @@
         style: { weight: 0.6 },
         onEachFeature: (f, couche) => {
           const iso = isoPolygone(f);
-          if (iso) boundsParIso[iso] = couche.getBounds();
+          if (iso) boundsParIso[iso] = boundsParIso[iso] ? boundsParIso[iso].extend(couche.getBounds()) : couche.getBounds();
           couche.bindTooltip(() => infobullePolygone(f), { className: "infobulle", sticky: true });
           couche.on("click", e => {
             const p = paysPolygone(f);
@@ -222,6 +258,8 @@
   CONTINENTS.forEach(c => { juresDu[c] = PAYS.filter(p => continentDe(p) === c); });
   const moyenneSur = (liste, f) => liste.reduce((s, p) => s + f(p), 0) / liste.length;
   const parContinent = () => etat.echelle === "continent" && !etat.intro && etat.mode !== "historique" && etat.mode !== "continent";
+  // Mêmes onglets que la bascule : l'Histoire et les Continents gardent leurs pays coloriés
+  const parJure = () => etat.echelle === "jure" && etat.mode !== "historique" && etat.mode !== "continent";
 
   // 1er choix le plus fréquent du continent ; à égalité, le joueur qui y a reçu le plus de points
   function premierDuContinent(c) {
@@ -242,6 +280,7 @@
         return CLASSES_ACCORD[Math.min(CLASSES_ACCORD.length - 1, Math.floor(parAccord.filter(p => accord[p] < m).length * CLASSES_ACCORD.length / PAYS.length))];
       }
       case "moi": return echelleAccord((moyenneSur(jures, p => affinite[p]) + 0.2) / 1.2);
+      case "duel": return echelleDuel(moyenneSur(jures, ecartDuel));
       default: return COULEUR_JOUEUR[premierDuContinent(c).joueur] || "#9a9a9a";
     }
   }
@@ -251,6 +290,10 @@
       case "joueur": return `${fmt(moyenneSur(jures, p => pts[p][etat.joueur]), 1)} pts en moyenne`;
       case "accord": return `accord moyen ${fmt(accordMoyen(c), 2)}`;
       case "moi": return `${pourcent(moyenneSur(jures, p => affinite[p]))} de ressemblance`;
+      case "duel": {
+        const total = jures.reduce((s, p) => s + ecartDuel(p), 0);
+        return total ? `${Math.abs(total)} pts d'écart pour ${esc(total > 0 ? DUEL_A : DUEL_B)}` : "égalité";
+      }
       default: { const r = premierDuContinent(c); return `${esc(r.joueur)} (${r.voix}/${r.jures})`; }
     }
   }
@@ -262,6 +305,7 @@
       case "continent": return COULEUR_CONTINENT[continentDe(p)];
       case "accord": return couleurAccord(p);
       case "moi": return echelleAccord((affinite[p] + 0.2) / 1.2);
+      case "duel": return echelleDuel(ecartDuel(p));
       default: return COULEUR_JOUEUR[premierChoix(p)] || "#9a9a9a";
     }
   }
@@ -281,7 +325,7 @@
           return { fillColor: v ? echelleOr(0.25 + 0.75 * v / maxV) : vide, fillOpacity: v ? 0.9 : 0.6, color: bord, weight: 0.6 };
         }
         const p = paysPolygone(f);
-        if (!p || pasEncoreCompte(p)) return { fillColor: vide, fillOpacity: 0.55, color: bord, weight: 0.5 };
+        if (!p || pasEncoreCompte(p) || parJure()) return { fillColor: vide, fillOpacity: 0.55, color: bord, weight: 0.5 };
         return { fillColor: couleurPays(p), fillOpacity: estEstompe(p) ? 0.18 : 0.78, color: bord, weight: 0.6 };
       });
     }
@@ -293,8 +337,9 @@
         fillColor: couleurPays(p), color: bord,
         opacity: estEstompe(p) ? 0.3 : 1, fillOpacity: estEstompe(p) ? 0.25 : 1
       });
-      m.setRadius(fort ? 8 : 5);
+      m.setRadius(fort ? RAYON_PASTILLE + 3 : RAYON_PASTILLE);
     });
+    if (parJure()) { calquePastilles.addTo(carte); ecarterPastilles(); } else calquePastilles.remove();
     dessinerLegende();
   }
 
@@ -329,6 +374,11 @@
     else if (etat.mode === "accord") detail = `Accord avec le résultat final : <b>${fmt(accord[p], 2)}</b>`;
     else if (etat.mode === "moi") detail = `Ressemblance avec ton bulletin : <b>${pourcent(affinite[p])}</b>`;
     else if (etat.mode === "continent") detail = esc(continentDe(p));
+    else if (etat.mode === "duel") {
+      const e = ecartDuel(p);
+      detail = `${esc(DUEL_A)} ${pts[p][DUEL_A]} pts · ${esc(DUEL_B)} ${pts[p][DUEL_B]} pts<br>` +
+        (e ? `<b>${Math.abs(e)} pt${Math.abs(e) > 1 ? "s" : ""} d'écart pour ${esc(e > 0 ? DUEL_A : DUEL_B)}</b>` : "<b>égalité</b>");
+    }
     else detail = `1er choix : <b>${esc(v[0].joueur)}</b>`;
     return `<b>${nomPays(p)}</b><br>${detail}`;
   }
@@ -340,7 +390,6 @@
     }
     const p = paysPolygone(f);
     if (!p) return `${esc(f.properties.name)}<br><span style="opacity:.7">Pas de juré en 2026</span>`;
-    if (D.pays[p].iso === "826") return `<b>Royaume-Uni</b><br><span style="opacity:.7">4 jurés : Angleterre, Écosse, Galles, Irlande du Nord (voir les points)</span>`;
     return infobulle(p);
   }
 
@@ -350,10 +399,11 @@
     const bascule = $("#bascule-echelle");
     bascule.hidden = etat.mode === "historique" || etat.mode === "continent";
     bascule.classList.toggle("continent", etat.echelle === "continent");
+    bascule.classList.toggle("jure", etat.echelle === "jure");
     bascule.querySelectorAll("[data-echelle]").forEach(b => b.setAttribute("aria-pressed", b.dataset.echelle === etat.echelle));
     if (parContinent()) {
       const titre = etat.mode === "joueur" ? `Points donnés à ${esc(nomJoueur(etat.joueur))}`
-        : { accord: "Accord avec le résultat final", moi: "Les continents qui votent comme toi" }[etat.mode] || "1er choix le plus fréquent";
+        : { accord: "Accord avec le résultat final", moi: "Les continents qui votent comme toi", duel: `${esc(DUEL_A)} contre ${esc(DUEL_B)}` }[etat.mode] || "1er choix le plus fréquent";
       L_.innerHTML = `<h3>${titre} · par continent</h3>` +
         CONTINENTS.filter(c => juresDu[c].length).map(c => ligne(couleurContinent(c), `${esc(c)} <span style="opacity:.6">${valeurContinent(c)}</span>`)).join("");
     } else if (etat.mode === "joueur") {
@@ -372,6 +422,12 @@
       L_.innerHTML = `<h3>Les pays qui votent comme toi</h3>
         <div class="degrade" style="background:linear-gradient(90deg,${echelleAccord(0)},${echelleAccord(0.5)},${echelleAccord(1)})"></div>
         <div class="bornes"><span>à l'opposé</span><span>comme toi</span></div>`;
+    } else if (etat.mode === "duel") {
+      const pour = PAYS.filter(p => ecartDuel(p) > 0).length, contre = PAYS.filter(p => ecartDuel(p) < 0).length;
+      L_.innerHTML = `<h3>${esc(DUEL_A)} contre ${esc(DUEL_B)} : écart de points</h3>
+        <div class="degrade" style="background:linear-gradient(90deg,${echelleDuel(-15)},${echelleDuel(0)},${echelleDuel(15)})"></div>
+        <div class="bornes"><span>${esc(DUEL_B)} +15</span><span>${esc(DUEL_A)} +15</span></div>
+        <div class="bornes"><span>${contre} jurés</span><span>${pour} jurés</span></div>`;
     } else if (etat.mode === "historique") {
       L_.innerHTML = `<h3>Ballons d'or 1956-2025, par pays actuel</h3>
         <div class="degrade" style="background:linear-gradient(90deg,${echelleOr(0.25)},${echelleOr(1)})"></div>
@@ -381,6 +437,7 @@
       const lignes = Object.keys(COULEUR_JOUEUR).map(j => ligne(COULEUR_JOUEUR[j], `${esc(j)} <span style="opacity:.6">(${premiers[j]})</span>`));
       L_.innerHTML = `<h3>1er choix de chaque juré</h3>` + lignes.join("");
     }
+    if (parJure()) L_.insertAdjacentHTML("beforeend", `<p class="note-pastille">1 pastille = 1 juré, quelle que soit la taille du pays</p>`);
   }
 
   // ---------- Fiche pays ----------
@@ -660,7 +717,12 @@
     contenu.innerHTML = `
       ${basculeClassement("joueurs")}
       <p class="surtitre">Ballon d'or 2026 · vote des ${PAYS.length} jurés</p>
-      <h2 class="titre-vote">${esc(vainqueur)} sacré, ${totaux[vainqueur] - totaux[dauphin]} points devant ${esc(dauphin)}</h2>
+      <h2 class="titre-vote"><button type="button" class="lien-duel" id="lien-duel" title="Voir le duel juré par juré">${esc(vainqueur)} sacré, ${totaux[vainqueur] - totaux[dauphin]} points devant ${esc(dauphin)}</button></h2>
+      ${DECISIF ? `<button type="button" class="appel-duel" id="appel-duel">
+        <span class="surtitre-duel">Le duel</span>
+        <strong>Le Ballon d'or s'est joué à un bulletin</strong>
+        <span>Sur 100 jurés, un seul qui inverse ${esc(DUEL_A)} et ${esc(DUEL_B)} suffisait à changer le vainqueur. Voir le duel juré par juré →</span>
+      </button>` : ""}
       <button type="button" class="appel-vote" id="appel-vote">
         <strong>Et toi, qui aurait gagné ?</strong>
         <span>Fais ton top 10 et découvre quel pays a voté comme toi →</span>
@@ -681,6 +743,9 @@
       ${blocCredits()}`;
     brancherBascule();
     $("#appel-vote").addEventListener("click", () => allerOnglet("tonvote"));
+    // Le titre ouvre la carte du duel, en tête des chocs
+    $("#lien-duel").addEventListener("click", ouvrirDuel);
+    if (DECISIF) $("#appel-duel").addEventListener("click", ouvrirDuel);
     contenu.querySelectorAll("[data-joueur]").forEach(li => li.addEventListener("click", () => {
       const dejaActif = li.classList.contains("actif");
       contenu.querySelectorAll(".classement li").forEach(x => x.classList.remove("actif"));
@@ -885,6 +950,23 @@
   function ongletCuriosites() {
     const cartes = [];
 
+    // Le duel du vainqueur et de son dauphin, colorié juré par juré
+    const ecartTotal = ECART_DUEL, decisif = DECISIF;
+    const devant = PAYS.filter(p => ecartDuel(p) > 0).length, derriere = PAYS.filter(p => ecartDuel(p) < 0).length;
+    const ecartDu = c => juresDu[c].reduce((s, p) => s + ecartDuel(p), 0);
+    const [plusA, plusB] = [CONTINENTS.slice().sort((a, b) => ecartDu(b) - ecartDu(a))[0], CONTINENTS.slice().sort((a, b) => ecartDu(a) - ecartDu(b))[0]];
+    const lineaire = j => PAYS.reduce((s, p) => s + D.jury[p].votes.filter(v => v.joueur === j).reduce((t, v) => t + 11 - v.rang, 0), 0);
+    cartes.push({
+      tag: "Duel", titre: `${DUEL_A} contre ${DUEL_B}, juré par juré`,
+      texte: `${devant} jurés donnent plus de points à ${DUEL_A}, ${derriere} à ${DUEL_B}. ` +
+        `L'${plusA} offre ${ecartDu(plusA)} points d'avance à ${DUEL_A}, l'${plusB} en rend ${-ecartDu(plusB)} à ${DUEL_B}. ` +
+        `Avec un barème linéaire (10 points pour le 1er, 1 pour le 10e) : ${fmt(lineaire(DUEL_A))} contre ${fmt(lineaire(DUEL_B))}.`,
+      choc: decisif
+        ? { chiffre: "1 bulletin", phrase: `inversé suffisait : avec ${DUEL_B} à la place de ${DUEL_A} chez le juré ${deP(decisif.p)}, ${DUEL_B} gagnait de ${decisif.marge} point${decisif.marge > 1 ? "s" : ""}.` }
+        : { chiffre: `${ecartTotal} pts`, phrase: `d'avance pour ${DUEL_A} sur ${DUEL_B} à l'arrivée.` },
+      mode: "duel", pays: PAYS, anneau: decisif && decisif.p
+    });
+
     const patriotes = [];
     PAYS.forEach(p => D.jury[p].votes.forEach(v => { if (D.joueurs[v.joueur].nationalite === p) patriotes.push({ p, ...v }); }));
     patriotes.sort((a, b) => a.rang - b.rang);
@@ -1002,6 +1084,9 @@
       const c = cartes[+el.dataset.k];
       contenu.querySelectorAll(".carte-info").forEach(x => x.classList.toggle("actif", x === el));
       changerMode(c.mode ? { mode: c.mode } : { surbrillance: new Set(c.pays) });
+      // Anneau doré autour du juré à repérer (le juré décisif du duel)
+      if (c.anneau) L.circleMarker([D.pays[c.anneau].lat, D.pays[c.anneau].lon], { radius: 13, color: css("--or"), weight: 3, fill: false, interactive: false })
+        .addTo(calqueSurcouche);
       if (c.flux) {
         PAYS.forEach(p => {
           const j = D.joueurs[premierChoix(p)];
@@ -1709,7 +1794,7 @@
       D.jury[p].votes.forEach(v => { if (v.joueur in scores) scores[v.joueur] += v.points; });
       styler();
       marqueurs[p].setRadius(10);
-      setTimeout(() => marqueurs[p].setRadius(5), 260);
+      setTimeout(() => marqueurs[p].setRadius(RAYON_PASTILLE), 260);
       $("#compteur-bulletins").textContent = i + 1;
       $("#dernier-bulletin").innerHTML = `<b>${nomPays(p)}</b> vote <b>${esc(premierChoix(p))}</b>`;
       dessinerCourse(scores);
@@ -1727,6 +1812,12 @@
     $(".zone-carte").classList.remove("en-intro");
     if (etat.intro) { etat.intro = null; styler(); }
     if (avecPodium) afficherPodium();
+  }
+
+  // Ouvre la carte du duel, en tête des chocs
+  function ouvrirDuel() {
+    allerOnglet("curiosites");
+    contenu.querySelector('.carte-info[data-k="0"]').click();
   }
 
   function afficherPodium() {
@@ -1748,6 +1839,9 @@
         <h2 id="podium-nom">${esc(nomJoueur(premier))}</h2>
         <p class="exploit">${fmt(totaux[premier])} points · 1er sur ${premiers[premier]} bulletins sur ${PAYS.length}<br>
           <b>+${totaux[premier] - totaux[second]} pts</b> devant ${esc(nomJoueur(second))}</p>
+        ${DECISIF ? `<button type="button" class="podium-duel" id="bouton-duel">
+          <strong>Joué à un bulletin près</strong>
+          <span>Un seul vote inversé entre ${esc(DUEL_A)} et ${esc(DUEL_B)} changeait le vainqueur →</span></button>` : ""}
         <div class="marches">${marche(second, 2)}${marche(troisieme, 3)}</div>
         <p class="question">Et toi, qui aurait eu ton vote ?</p>
         <button type="button" class="bouton-principal" id="bouton-mon-vote">Fais ton top 10</button>
@@ -1757,6 +1851,7 @@
     $("#bouton-mon-vote").focus({ preventScroll: true });
     const fermer = () => { $("#podium").hidden = true; };
     $("#bouton-explorer").onclick = fermer;
+    if (DECISIF) $("#bouton-duel").onclick = () => { fermer(); ouvrirDuel(); };
     $("#podium-fermer").onclick = fermer;
     $("#bouton-mon-vote").onclick = () => { fermer(); allerOnglet("tonvote"); };
     $("#podium").onclick = e => { if (e.target === $("#podium")) fermer(); };
